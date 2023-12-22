@@ -1,0 +1,37 @@
+.\objects\dds_api.o: ..\Hardware\src\DDS_API.c
+.\objects\dds_api.o: ..\Hardware\inc\DDS_API.h
+.\objects\dds_api.o: ..\Libraries\CMSIS\stm32f10x.h
+.\objects\dds_api.o: ..\Libraries\CMSIS\coreinc\core_cm3.h
+.\objects\dds_api.o: D:\My Program File\keil\ARM\ARMCC\Bin\..\include\stdint.h
+.\objects\dds_api.o: ..\Libraries\CMSIS\coreinc\cmsis_version.h
+.\objects\dds_api.o: ..\Libraries\CMSIS\coreinc\cmsis_compiler.h
+.\objects\dds_api.o: ..\Libraries\CMSIS\coreinc\cmsis_armcc.h
+.\objects\dds_api.o: ..\Libraries\CMSIS\system_stm32f10x.h
+.\objects\dds_api.o: ..\User\stm32f10x_conf.h
+.\objects\dds_api.o: ..\Libraries\FWLIB\inc\stm32f10x_adc.h
+.\objects\dds_api.o: ..\Libraries\CMSIS\stm32f10x.h
+.\objects\dds_api.o: ..\Libraries\FWLIB\inc\stm32f10x_bkp.h
+.\objects\dds_api.o: ..\Libraries\FWLIB\inc\stm32f10x_can.h
+.\objects\dds_api.o: ..\Libraries\FWLIB\inc\stm32f10x_cec.h
+.\objects\dds_api.o: ..\Libraries\FWLIB\inc\stm32f10x_crc.h
+.\objects\dds_api.o: ..\Libraries\FWLIB\inc\stm32f10x_dac.h
+.\objects\dds_api.o: ..\Libraries\FWLIB\inc\stm32f10x_dbgmcu.h
+.\objects\dds_api.o: ..\Libraries\FWLIB\inc\stm32f10x_dma.h
+.\objects\dds_api.o: ..\Libraries\FWLIB\inc\stm32f10x_exti.h
+.\objects\dds_api.o: ..\Libraries\FWLIB\inc\stm32f10x_flash.h
+.\objects\dds_api.o: ..\Libraries\FWLIB\inc\stm32f10x_fsmc.h
+.\objects\dds_api.o: ..\Libraries\FWLIB\inc\stm32f10x_gpio.h
+.\objects\dds_api.o: ..\Libraries\FWLIB\inc\stm32f10x_i2c.h
+.\objects\dds_api.o: ..\Libraries\FWLIB\inc\stm32f10x_iwdg.h
+.\objects\dds_api.o: ..\Libraries\FWLIB\inc\stm32f10x_pwr.h
+.\objects\dds_api.o: ..\Libraries\FWLIB\inc\stm32f10x_rcc.h
+.\objects\dds_api.o: ..\Libraries\FWLIB\inc\stm32f10x_rtc.h
+.\objects\dds_api.o: ..\Libraries\FWLIB\inc\stm32f10x_sdio.h
+.\objects\dds_api.o: ..\Libraries\FWLIB\inc\stm32f10x_spi.h
+.\objects\dds_api.o: ..\Libraries\FWLIB\inc\stm32f10x_tim.h
+.\objects\dds_api.o: ..\Libraries\FWLIB\inc\stm32f10x_usart.h
+.\objects\dds_api.o: ..\Libraries\FWLIB\inc\stm32f10x_wwdg.h
+.\objects\dds_api.o: ..\Libraries\FWLIB\inc\misc.h
+.\objects\dds_api.o: D:\My Program File\keil\ARM\ARMCC\Bin\..\include\stdio.h
+.\objects\dds_api.o: ..\Hardware\inc\AD9910.h
+.\objects\dds_api.o: ..\MyLibraries\inc\ange_SysTick.h
