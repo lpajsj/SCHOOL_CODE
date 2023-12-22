@@ -1,0 +1,37 @@
+Bill of Material for 
+On 2021/9/19 at 10:18:38
+
+ Comment             Pattern     Quantity  Components
+------------------------------------------------------------------------------
+ 0509                0509             2    A1, A2                                            
+ 100UF               CAP 5.0*10*16    1    CE2                          直插电解电容               
+ 103                 CAP[0805]        9    C2, C3, C4, C5, C6, C8, C9                        
+                                           C11, C12
+ 104                 CAP[0805]        1    C1                                                
+ 106                 CAP[0805]        2    C7, C10                                           
+ 10K                 3296W            4    RP3, RP4, RP7, RP8           单联电位器                
+ 10K                 RES[0805]        3    R4, R5, R6                                        
+ 10uf                CAP 2.5*5*11 - BK    4    CE3, CE4, CE5, CE6           直插电解电容               
+ 1K                  RES[0805]       27    R3, R7, R8, R9, R10, R11, R12                      
+                                           R13, R14, R15, R16, R17, R18
+                                           R19, R20, R21, R22, R23, R24
+                                           R25, R26, R27, R28, R29, R30
+                                           R31, R32
+ 470UF               CAP 5.0*10*16    1    CE1                          直插电解电容               
+ 50k                 3296W            4    RP1, RP2, RP5, RP6           单联电位器                
+ 5K                  RES[0805]        1    R1                                                
+ 78xx                TO220A           1    V1                           LM78XX系列线性稳压芯片       
+ BEEP                BEEP             1    U1                                                
+ H1X2                H2.54_1X2        9    P1, P6, P7, P8, P9, P10, P11                      
+                                           P12, P13
+ H1X3                H2.54_1X3        1    P4                                                
+ H1X5                H2.54_1X5        1    P5                                                
+ H2X3                H2.54_2X3        2    P2, P3                                            
+ HDR-1X2             XH2.54-LI-2P     2    电源1, 电源2                     2P接插件                
+ K-LC6雷达             K-LC6雷达          1    L1                                                
+ K-MC雷达              K-MC1雷达          1    L2                                                
+ LED                 LED              1    D2                                                
+ LED                 LED[0805]        1    D1                                                
+ opa820              opa820_5         8    O1, O2, O3, O4, O5, O6, O7                        
+                                           O8
+ VET6_SUKAI          VET6_SUKAI       1    M1                                                

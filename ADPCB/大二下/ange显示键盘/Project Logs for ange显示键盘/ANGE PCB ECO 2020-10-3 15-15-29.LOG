@@ -1,0 +1,10 @@
+Added Component: Designator=R_VR1(RES_VR3296W)
+Added Pin To Net: NetName=VCC Pin=R_VR1-1
+Added Pin To Net: NetName=NetC1_2 Pin=R_VR1-3
+Added Pin To Net: NetName=NetR_VR1_2 Pin=R_VR1-2
+Added Pin To Net: NetName=NetR_VR1_2 Pin=U3-3
+Added Net: Name=NetR_VR1_2
+Added Member To Class: ClassName=U2 Member=Component R_VR1 RES_VR
+Added Room: Name=U1
+Added Room: Name=U2
+Added Room: Name=Ö÷Í¼

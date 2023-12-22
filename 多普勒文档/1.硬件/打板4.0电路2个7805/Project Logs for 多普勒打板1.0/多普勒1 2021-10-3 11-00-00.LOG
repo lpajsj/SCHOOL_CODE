@@ -1,0 +1,41 @@
+Removed Pin From Net: NetName=IFIOUT Pin=P9-2
+Removed Pin From Net: NetName=IFQOUT Pin=P13-2
+Change Component Designator: OldDesignator=R15 NewDesignator=R16
+Change Component Designator: OldDesignator=R16 NewDesignator=R17
+Change Component Designator: OldDesignator=R17 NewDesignator=R18
+Change Component Designator: OldDesignator=R18 NewDesignator=R19
+Change Component Designator: OldDesignator=R19 NewDesignator=R20
+Change Component Designator: OldDesignator=R20 NewDesignator=R21
+Change Component Designator: OldDesignator=R21 NewDesignator=R22
+Change Component Designator: OldDesignator=R22 NewDesignator=R23
+Change Component Designator: OldDesignator=R23 NewDesignator=R24
+Change Component Designator: OldDesignator=R24 NewDesignator=R25
+Change Component Designator: OldDesignator=R25 NewDesignator=R26
+Change Component Designator: OldDesignator=R26 NewDesignator=R27
+Change Component Designator: OldDesignator=R27 NewDesignator=R28
+Change Component Designator: OldDesignator=R28 NewDesignator=R30
+Change Component Designator: OldDesignator=R29 NewDesignator=R31
+Change Component Designator: OldDesignator=R30 NewDesignator=R32
+Change Component Designator: OldDesignator=R31 NewDesignator=R33
+Change Component Designator: OldDesignator=R32 NewDesignator=R34
+Change Component Designator: OldDesignator=R33 NewDesignator=R35
+Change Component Designator: OldDesignator=R34 NewDesignator=R36
+Added Component: Designator=R15(RES[0805])
+Added Component: Designator=R29(RES[0805])
+Added Pin To Net: NetName=IFIOUT Pin=R15-2
+Added Pin To Net: NetName=IFQOUT Pin=R29-2
+Change Net Name : Old Net Name=NetR15_1 New Net Name=NetR16_1
+Change Net Name : Old Net Name=NetR17_1 New Net Name=NetR18_1
+Change Net Name : Old Net Name=NetR21_1 New Net Name=NetR22_1
+Change Net Name : Old Net Name=NetR28_1 New Net Name=NetR30_1
+Change Net Name : Old Net Name=NetR30_1 New Net Name=NetR32_1
+Change Net Name : Old Net Name=NetR34_1 New Net Name=NetR36_1
+Added Pin To Net: NetName=NetP9_2 Pin=P9-2
+Added Pin To Net: NetName=NetP9_2 Pin=R15-1
+Added Net: Name=NetP9_2
+Added Pin To Net: NetName=NetP13_2 Pin=P13-2
+Added Pin To Net: NetName=NetP13_2 Pin=R29-1
+Added Net: Name=NetP13_2
+Added Member To Class: ClassName=∂‡∆’¿’1.0 Member=Component R35 1K
+Added Member To Class: ClassName=∂‡∆’¿’1.0 Member=Component R36 1K
+Added Room: Name=∂‡∆’¿’1.0

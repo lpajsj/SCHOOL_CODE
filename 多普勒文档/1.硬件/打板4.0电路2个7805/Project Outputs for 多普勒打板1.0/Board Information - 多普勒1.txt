@@ -1,0 +1,12 @@
+Board Information Report
+Filename     : D:\实验室\资料\大三\多普勒雷达测速\硬件电路\打板4.0电路2个7805\多普勒1.0.PcbDoc
+Date         : 2021/10/21
+Time         : 17:51:12
+Time Elapsed : 00:00:00
+
+Routing Information
+    Routing completion, 100.00%
+    Connections, 208
+    Connections routed, 208
+    Connections remaining, 0
+count : 4

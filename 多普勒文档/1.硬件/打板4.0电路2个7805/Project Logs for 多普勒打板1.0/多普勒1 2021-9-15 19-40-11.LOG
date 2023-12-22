@@ -1,0 +1,19 @@
+Removed Pin From Net: NetName=IFIOUT Pin=O4-1
+Removed Pin From Net: NetName=IFQOUT Pin=O8-1
+Removed Pin From Net: NetName=IFIOUT Pin=R19-2
+Removed Pin From Net: NetName=IFQOUT Pin=R32-2
+Added Component: Designator=P12(H2.54_1X2)
+Added Component: Designator=P13(H2.54_1X2)
+Added Pin To Net: NetName=IFIOUT Pin=P12-2
+Added Pin To Net: NetName=IFQOUT Pin=P13-2
+Added Pin To Net: NetName=NetO4_1 Pin=O4-1
+Added Pin To Net: NetName=NetO4_1 Pin=P12-1
+Added Pin To Net: NetName=NetO4_1 Pin=R19-2
+Added Net: Name=NetO4_1
+Added Pin To Net: NetName=NetO8_1 Pin=O8-1
+Added Pin To Net: NetName=NetO8_1 Pin=P13-1
+Added Pin To Net: NetName=NetO8_1 Pin=R32-2
+Added Net: Name=NetO8_1
+Added Member To Class: ClassName=∂‡∆’¿’1.0 Member=Component P12 H1X2
+Added Member To Class: ClassName=∂‡∆’¿’1.0 Member=Component P13 H1X2
+Added Room: Name=∂‡∆’¿’1.0

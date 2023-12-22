@@ -1,0 +1,5 @@
+Change Component DesignItemId : Designator=V1 Old DesignItemId=78xx New DesignItemId=LM7805
+Change Component Comment : Designator=V1 Old Comment=78xx New Comment=LM7805
+Change Component Description : Designator=V1 Old Description=LM78XX系列线性稳压芯片 New Description=
+Change Component Library : Designator=V1 Old Library=1.1 - 电源类芯片.SchLib New Library=电源芯片.IntLib
+Added Room: Name=多普勒1.0

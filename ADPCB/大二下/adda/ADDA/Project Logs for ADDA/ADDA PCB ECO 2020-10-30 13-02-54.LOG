@@ -1,0 +1,75 @@
+Added Component: Designator=D4(LED)
+Added Component: Designator=D5(LED)
+Added Component: Designator=D6(LED)
+Added Component: Designator=D7(LED)
+Added Component: Designator=D8(LED)
+Added Component: Designator=D9(LED)
+Added Component: Designator=R44(RES_DIP)
+Added Component: Designator=R45(RES_DIP)
+Added Component: Designator=R46(RES_DIP)
+Added Component: Designator=R47(RES_DIP)
+Added Component: Designator=R48(RES_DIP)
+Added Component: Designator=R49(RES_DIP)
+Added Pin To Net: NetName=VCC Pin=D4-1
+Added Pin To Net: NetName=VCC Pin=D5-1
+Added Pin To Net: NetName=VCC Pin=D6-1
+Added Pin To Net: NetName=VCC Pin=D7-1
+Added Pin To Net: NetName=VCC Pin=D8-1
+Added Pin To Net: NetName=VCC Pin=D9-1
+Added Pin To Net: NetName=NetD4_2 Pin=D4-2
+Added Pin To Net: NetName=NetD4_2 Pin=R44-2
+Added Net: Name=NetD4_2
+Added Pin To Net: NetName=NetD5_2 Pin=D5-2
+Added Pin To Net: NetName=NetD5_2 Pin=R45-2
+Added Net: Name=NetD5_2
+Added Pin To Net: NetName=NetD6_2 Pin=D6-2
+Added Pin To Net: NetName=NetD6_2 Pin=R46-2
+Added Net: Name=NetD6_2
+Added Pin To Net: NetName=NetD7_2 Pin=D7-2
+Added Pin To Net: NetName=NetD7_2 Pin=R47-2
+Added Net: Name=NetD7_2
+Added Pin To Net: NetName=NetD8_2 Pin=D8-2
+Added Pin To Net: NetName=NetD8_2 Pin=R48-2
+Added Net: Name=NetD8_2
+Added Pin To Net: NetName=NetD9_2 Pin=D9-2
+Added Pin To Net: NetName=NetD9_2 Pin=R49-2
+Added Net: Name=NetD9_2
+Added Pin To Net: NetName=NetR44_1 Pin=R44-1
+Added Pin To Net: NetName=NetR44_1 Pin=RP1-3
+Added Pin To Net: NetName=NetR44_1 Pin=U1-38
+Added Net: Name=NetR44_1
+Added Pin To Net: NetName=NetR45_1 Pin=R45-1
+Added Pin To Net: NetName=NetR45_1 Pin=RP1-4
+Added Pin To Net: NetName=NetR45_1 Pin=U1-37
+Added Net: Name=NetR45_1
+Added Pin To Net: NetName=NetR46_1 Pin=R46-1
+Added Pin To Net: NetName=NetR46_1 Pin=RP1-5
+Added Pin To Net: NetName=NetR46_1 Pin=U1-36
+Added Net: Name=NetR46_1
+Added Pin To Net: NetName=NetR47_1 Pin=R47-1
+Added Pin To Net: NetName=NetR47_1 Pin=RP1-6
+Added Pin To Net: NetName=NetR47_1 Pin=U1-35
+Added Net: Name=NetR47_1
+Added Pin To Net: NetName=NetR48_1 Pin=R48-1
+Added Pin To Net: NetName=NetR48_1 Pin=RP1-7
+Added Pin To Net: NetName=NetR48_1 Pin=U1-34
+Added Net: Name=NetR48_1
+Added Pin To Net: NetName=NetR49_1 Pin=R49-1
+Added Pin To Net: NetName=NetR49_1 Pin=RP1-8
+Added Pin To Net: NetName=NetR49_1 Pin=U1-33
+Added Net: Name=NetR49_1
+Added Member To Class: ClassName=U2 Member=Component D4 LED
+Added Member To Class: ClassName=U2 Member=Component D5 LED
+Added Member To Class: ClassName=U2 Member=Component D6 LED
+Added Member To Class: ClassName=U2 Member=Component D7 LED
+Added Member To Class: ClassName=U2 Member=Component D8 LED
+Added Member To Class: ClassName=U2 Member=Component D9 LED
+Added Member To Class: ClassName=U2 Member=Component R44 RES
+Added Member To Class: ClassName=U2 Member=Component R45 RES
+Added Member To Class: ClassName=U2 Member=Component R46 RES
+Added Member To Class: ClassName=U2 Member=Component R47 RES
+Added Member To Class: ClassName=U2 Member=Component R48 RES
+Added Member To Class: ClassName=U2 Member=Component R49 RES
+Added Room: Name=ADDA
+Added Room: Name=U1
+Added Room: Name=U2

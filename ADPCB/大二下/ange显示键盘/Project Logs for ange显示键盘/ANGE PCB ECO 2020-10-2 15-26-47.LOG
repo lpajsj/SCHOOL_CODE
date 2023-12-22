@@ -1,0 +1,243 @@
+Change Component Designator: OldDesignator=1 NewDesignator=2
+Change Component Designator: OldDesignator=1 NewDesignator=3
+Change Component Designator: OldDesignator=1 NewDesignator=4
+Change Component Designator: OldDesignator=1 NewDesignator=5
+Change Component Designator: OldDesignator=1 NewDesignator=6
+Change Component Designator: OldDesignator=HC1 NewDesignator=HC2
+Change Component Designator: OldDesignator=HC1 NewDesignator=HC3
+Change Component Designator: OldDesignator=HC1 NewDesignator=HC4
+Change Component Designator: OldDesignator=HC1 NewDesignator=HC5
+Change Component Designator: OldDesignator=HC1 NewDesignator=HC6
+Change Component Designator: OldDesignator=R4 NewDesignator=R12
+Change Component Designator: OldDesignator=R4 NewDesignator=R20
+Change Component Designator: OldDesignator=R4 NewDesignator=R28
+Change Component Designator: OldDesignator=R4 NewDesignator=R36
+Change Component Designator: OldDesignator=R4 NewDesignator=R50
+Change Component Designator: OldDesignator=R5 NewDesignator=R13
+Change Component Designator: OldDesignator=R5 NewDesignator=R21
+Change Component Designator: OldDesignator=R5 NewDesignator=R29
+Change Component Designator: OldDesignator=R5 NewDesignator=R37
+Change Component Designator: OldDesignator=R5 NewDesignator=R51
+Change Component Designator: OldDesignator=R6 NewDesignator=R14
+Change Component Designator: OldDesignator=R6 NewDesignator=R22
+Change Component Designator: OldDesignator=R6 NewDesignator=R30
+Change Component Designator: OldDesignator=R6 NewDesignator=R38
+Change Component Designator: OldDesignator=R6 NewDesignator=R52
+Change Component Designator: OldDesignator=R7 NewDesignator=R15
+Change Component Designator: OldDesignator=R7 NewDesignator=R23
+Change Component Designator: OldDesignator=R7 NewDesignator=R31
+Change Component Designator: OldDesignator=R7 NewDesignator=R39
+Change Component Designator: OldDesignator=R7 NewDesignator=R53
+Change Component Designator: OldDesignator=R8 NewDesignator=R16
+Change Component Designator: OldDesignator=R8 NewDesignator=R24
+Change Component Designator: OldDesignator=R8 NewDesignator=R32
+Change Component Designator: OldDesignator=R8 NewDesignator=R40
+Change Component Designator: OldDesignator=R8 NewDesignator=R54
+Change Component Designator: OldDesignator=R9 NewDesignator=R17
+Change Component Designator: OldDesignator=R9 NewDesignator=R25
+Change Component Designator: OldDesignator=R9 NewDesignator=R33
+Change Component Designator: OldDesignator=R9 NewDesignator=R41
+Change Component Designator: OldDesignator=R9 NewDesignator=R55
+Change Component Designator: OldDesignator=R10 NewDesignator=R18
+Change Component Designator: OldDesignator=R10 NewDesignator=R26
+Change Component Designator: OldDesignator=R10 NewDesignator=R34
+Change Component Designator: OldDesignator=R10 NewDesignator=R42
+Change Component Designator: OldDesignator=R10 NewDesignator=R56
+Change Component Designator: OldDesignator=R11 NewDesignator=R19
+Change Component Designator: OldDesignator=R11 NewDesignator=R27
+Change Component Designator: OldDesignator=R11 NewDesignator=R35
+Change Component Designator: OldDesignator=R11 NewDesignator=R43
+Change Component Designator: OldDesignator=R11 NewDesignator=R57
+Change Component Designator: OldDesignator=R? NewDesignator=R45
+Change Component Designator: OldDesignator=R? NewDesignator=R46
+Change Component Designator: OldDesignator=R? NewDesignator=R47
+Change Component Designator: OldDesignator=R? NewDesignator=R48
+Change Component Designator: OldDesignator=R? NewDesignator=R49
+Change Component Designator: OldDesignator=R? NewDesignator=R58
+Change Component Designator: OldDesignator=R? NewDesignator=R59
+Change Component Designator: OldDesignator=R? NewDesignator=R60
+Change Net Name : Old Net Name=Net1_2 New Net Name=Net5_2
+Change Net Name : Old Net Name=Net1_3 New Net Name=Net6_3
+Change Net Name : Old Net Name=Net1_4 New Net Name=Net6_4
+Change Net Name : Old Net Name=Net1_5 New Net Name=Net6_5
+Change Net Name : Old Net Name=Net1_7 New Net Name=Net6_7
+Change Net Name : Old Net Name=Net1_8 New Net Name=Net6_8
+Change Net Name : Old Net Name=Net1_9 New Net Name=Net6_9
+Change Net Name : Old Net Name=Net1_10 New Net Name=Net2_10
+Added Pin To Net: NetName=Net1_2 Pin=1-2
+Added Pin To Net: NetName=Net1_2 Pin=R9-2
+Added Net: Name=Net1_2
+Added Pin To Net: NetName=Net1_3 Pin=1-3
+Added Pin To Net: NetName=Net1_3 Pin=R10-2
+Added Net: Name=Net1_3
+Added Pin To Net: NetName=Net1_4 Pin=1-4
+Added Pin To Net: NetName=Net1_4 Pin=R8-2
+Added Net: Name=Net1_4
+Added Pin To Net: NetName=Net1_5 Pin=1-5
+Added Pin To Net: NetName=Net1_5 Pin=R7-2
+Added Net: Name=Net1_5
+Added Pin To Net: NetName=Net1_7 Pin=1-7
+Added Pin To Net: NetName=Net1_7 Pin=R11-2
+Added Net: Name=Net1_7
+Added Pin To Net: NetName=Net1_8 Pin=1-8
+Added Pin To Net: NetName=Net1_8 Pin=R6-2
+Added Net: Name=Net1_8
+Added Pin To Net: NetName=Net1_9 Pin=1-9
+Added Pin To Net: NetName=Net1_9 Pin=R5-2
+Added Net: Name=Net1_9
+Added Pin To Net: NetName=Net1_10 Pin=1-10
+Added Pin To Net: NetName=Net1_10 Pin=R4-2
+Added Net: Name=Net1_10
+Added Pin To Net: NetName=Net2_2 Pin=2-2
+Added Pin To Net: NetName=Net2_2 Pin=R17-2
+Added Net: Name=Net2_2
+Added Pin To Net: NetName=Net2_3 Pin=2-3
+Added Pin To Net: NetName=Net2_3 Pin=R18-2
+Added Net: Name=Net2_3
+Added Pin To Net: NetName=Net2_4 Pin=2-4
+Added Pin To Net: NetName=Net2_4 Pin=R16-2
+Added Net: Name=Net2_4
+Added Pin To Net: NetName=Net2_5 Pin=2-5
+Added Pin To Net: NetName=Net2_5 Pin=R15-2
+Added Net: Name=Net2_5
+Added Pin To Net: NetName=Net2_7 Pin=2-7
+Added Pin To Net: NetName=Net2_7 Pin=R19-2
+Added Net: Name=Net2_7
+Added Pin To Net: NetName=Net2_8 Pin=2-8
+Added Pin To Net: NetName=Net2_8 Pin=R14-2
+Added Net: Name=Net2_8
+Added Pin To Net: NetName=Net2_9 Pin=2-9
+Added Pin To Net: NetName=Net2_9 Pin=R13-2
+Added Net: Name=Net2_9
+Added Pin To Net: NetName=Net3_2 Pin=3-2
+Added Pin To Net: NetName=Net3_2 Pin=R25-2
+Added Net: Name=Net3_2
+Added Pin To Net: NetName=Net3_3 Pin=3-3
+Added Pin To Net: NetName=Net3_3 Pin=R26-2
+Added Net: Name=Net3_3
+Added Pin To Net: NetName=Net3_4 Pin=3-4
+Added Pin To Net: NetName=Net3_4 Pin=R24-2
+Added Net: Name=Net3_4
+Added Pin To Net: NetName=Net3_5 Pin=3-5
+Added Pin To Net: NetName=Net3_5 Pin=R23-2
+Added Net: Name=Net3_5
+Added Pin To Net: NetName=Net3_7 Pin=3-7
+Added Pin To Net: NetName=Net3_7 Pin=R27-2
+Added Net: Name=Net3_7
+Added Pin To Net: NetName=Net3_8 Pin=3-8
+Added Pin To Net: NetName=Net3_8 Pin=R22-2
+Added Net: Name=Net3_8
+Added Pin To Net: NetName=Net3_9 Pin=3-9
+Added Pin To Net: NetName=Net3_9 Pin=R21-2
+Added Net: Name=Net3_9
+Added Pin To Net: NetName=Net3_10 Pin=3-10
+Added Pin To Net: NetName=Net3_10 Pin=R20-2
+Added Net: Name=Net3_10
+Added Pin To Net: NetName=Net4_2 Pin=4-2
+Added Pin To Net: NetName=Net4_2 Pin=R33-2
+Added Net: Name=Net4_2
+Added Pin To Net: NetName=Net4_3 Pin=4-3
+Added Pin To Net: NetName=Net4_3 Pin=R34-2
+Added Net: Name=Net4_3
+Added Pin To Net: NetName=Net4_4 Pin=4-4
+Added Pin To Net: NetName=Net4_4 Pin=R32-2
+Added Net: Name=Net4_4
+Added Pin To Net: NetName=Net4_5 Pin=4-5
+Added Pin To Net: NetName=Net4_5 Pin=R31-2
+Added Net: Name=Net4_5
+Added Pin To Net: NetName=Net4_7 Pin=4-7
+Added Pin To Net: NetName=Net4_7 Pin=R35-2
+Added Net: Name=Net4_7
+Added Pin To Net: NetName=Net4_8 Pin=4-8
+Added Pin To Net: NetName=Net4_8 Pin=R30-2
+Added Net: Name=Net4_8
+Added Pin To Net: NetName=Net4_9 Pin=4-9
+Added Pin To Net: NetName=Net4_9 Pin=R29-2
+Added Net: Name=Net4_9
+Added Pin To Net: NetName=Net4_10 Pin=4-10
+Added Pin To Net: NetName=Net4_10 Pin=R28-2
+Added Net: Name=Net4_10
+Added Pin To Net: NetName=Net5_3 Pin=5-3
+Added Pin To Net: NetName=Net5_3 Pin=R42-2
+Added Net: Name=Net5_3
+Added Pin To Net: NetName=Net5_4 Pin=5-4
+Added Pin To Net: NetName=Net5_4 Pin=R40-2
+Added Net: Name=Net5_4
+Added Pin To Net: NetName=Net5_5 Pin=5-5
+Added Pin To Net: NetName=Net5_5 Pin=R39-2
+Added Net: Name=Net5_5
+Added Pin To Net: NetName=Net5_7 Pin=5-7
+Added Pin To Net: NetName=Net5_7 Pin=R43-2
+Added Net: Name=Net5_7
+Added Pin To Net: NetName=Net5_8 Pin=5-8
+Added Pin To Net: NetName=Net5_8 Pin=R38-2
+Added Net: Name=Net5_8
+Added Pin To Net: NetName=Net5_9 Pin=5-9
+Added Pin To Net: NetName=Net5_9 Pin=R37-2
+Added Net: Name=Net5_9
+Added Pin To Net: NetName=Net5_10 Pin=5-10
+Added Pin To Net: NetName=Net5_10 Pin=R36-2
+Added Net: Name=Net5_10
+Added Pin To Net: NetName=Net6_2 Pin=6-2
+Added Pin To Net: NetName=Net6_2 Pin=R55-2
+Added Net: Name=Net6_2
+Added Pin To Net: NetName=Net6_10 Pin=6-10
+Added Pin To Net: NetName=Net6_10 Pin=R50-2
+Added Net: Name=Net6_10
+Added Member To Class: ClassName=U1 Member=Component 2 DPY_RED
+Added Member To Class: ClassName=U1 Member=Component 3 DPY_RED
+Added Member To Class: ClassName=U1 Member=Component 4 DPY_RED
+Added Member To Class: ClassName=U1 Member=Component 5 DPY_RED
+Added Member To Class: ClassName=U1 Member=Component 6 DPY_RED
+Added Member To Class: ClassName=U1 Member=Component HC2 74HC595
+Added Member To Class: ClassName=U1 Member=Component HC3 74HC595
+Added Member To Class: ClassName=U1 Member=Component HC4 74HC595
+Added Member To Class: ClassName=U1 Member=Component HC5 74HC595
+Added Member To Class: ClassName=U1 Member=Component HC6 74HC595
+Added Member To Class: ClassName=U1 Member=Component R12 RES
+Added Member To Class: ClassName=U1 Member=Component R13 RES
+Added Member To Class: ClassName=U1 Member=Component R14 RES
+Added Member To Class: ClassName=U1 Member=Component R15 RES
+Added Member To Class: ClassName=U1 Member=Component R16 RES
+Added Member To Class: ClassName=U1 Member=Component R17 RES
+Added Member To Class: ClassName=U1 Member=Component R18 RES
+Added Member To Class: ClassName=U1 Member=Component R19 RES
+Added Member To Class: ClassName=U1 Member=Component R20 RES
+Added Member To Class: ClassName=U1 Member=Component R21 RES
+Added Member To Class: ClassName=U1 Member=Component R22 RES
+Added Member To Class: ClassName=U1 Member=Component R23 RES
+Added Member To Class: ClassName=U1 Member=Component R24 RES
+Added Member To Class: ClassName=U1 Member=Component R25 RES
+Added Member To Class: ClassName=U1 Member=Component R26 RES
+Added Member To Class: ClassName=U1 Member=Component R27 RES
+Added Member To Class: ClassName=U1 Member=Component R28 RES
+Added Member To Class: ClassName=U1 Member=Component R29 RES
+Added Member To Class: ClassName=U1 Member=Component R30 RES
+Added Member To Class: ClassName=U1 Member=Component R31 RES
+Added Member To Class: ClassName=U1 Member=Component R32 RES
+Added Member To Class: ClassName=U1 Member=Component R33 RES
+Added Member To Class: ClassName=U1 Member=Component R34 RES
+Added Member To Class: ClassName=U1 Member=Component R35 RES
+Added Member To Class: ClassName=U1 Member=Component R36 RES
+Added Member To Class: ClassName=U1 Member=Component R37 RES
+Added Member To Class: ClassName=U1 Member=Component R38 RES
+Added Member To Class: ClassName=U1 Member=Component R39 RES
+Added Member To Class: ClassName=U1 Member=Component R40 RES
+Added Member To Class: ClassName=U1 Member=Component R41 RES
+Added Member To Class: ClassName=U1 Member=Component R42 RES
+Added Member To Class: ClassName=U1 Member=Component R43 RES
+Added Member To Class: ClassName=U1 Member=Component R45 RES
+Added Member To Class: ClassName=U1 Member=Component R46 RES
+Added Member To Class: ClassName=U1 Member=Component R47 RES
+Added Member To Class: ClassName=U1 Member=Component R48 RES
+Added Member To Class: ClassName=U1 Member=Component R49 RES
+Added Member To Class: ClassName=U1 Member=Component R50 RES
+Added Member To Class: ClassName=U1 Member=Component R51 RES
+Added Member To Class: ClassName=U1 Member=Component R52 RES
+Added Member To Class: ClassName=U1 Member=Component R53 RES
+Added Member To Class: ClassName=U1 Member=Component R54 RES
+Added Member To Class: ClassName=U1 Member=Component R55 RES
+Added Member To Class: ClassName=U1 Member=Component R56 RES
+Added Member To Class: ClassName=U1 Member=Component R57 RES
+Added Member To Class: ClassName=U1 Member=Component R58 RES
+Added Member To Class: ClassName=U1 Member=Component R60 RES

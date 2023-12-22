@@ -1,0 +1,30 @@
+Removed Pin From Net: NetName=PA8 Pin=D2-2
+Removed Pin From Net: NetName=GND Pin=P5-1
+Removed Pin From Net: NetName=NetM1_47 Pin=P5-2
+Removed Pin From Net: NetName=NetM1_43 Pin=P5-4
+Removed Pin From Net: NetName=VCC Pin=P5-5
+Added Component: Designator=D3(LED)
+Added Component: Designator=P6(H2.54_1X5)
+Added Component: Designator=R3(RES[0805])
+Added Pin To Net: NetName=GND Pin=D2-2
+Added Pin To Net: NetName=PA8 Pin=D2-2
+Added Pin To Net: NetName=VCC Pin=P5-1
+Added Pin To Net: NetName=NetM1_43 Pin=P5-2
+Added Pin To Net: NetName=NetM1_47 Pin=P5-4
+Added Pin To Net: NetName=GND Pin=P5-5
+Added Pin To Net: NetName=GND Pin=P5-1
+Added Pin To Net: NetName=NetM1_47 Pin=P5-2
+Added Pin To Net: NetName=NetM1_45 Pin=P5-3
+Added Pin To Net: NetName=NetM1_43 Pin=P5-4
+Added Pin To Net: NetName=VCC Pin=P5-5
+Added Pin To Net: NetName=3.3V Pin=R2-2
+Change Net Name : Old Net Name=NetD3_1 New Net Name=NetD2_1
+Added Pin To Net: NetName=NetD3_1 Pin=D2-1
+Added Pin To Net: NetName=NetD3_1 Pin=R2-1
+Added Net: Name=NetD3_1
+Added Member To Class: ClassName=∂‡∆’¿’1.0 Member=Component P3 H1X3
+Added Member To Class: ClassName=∂‡∆’¿’1.0 Member=Component P6 H1X5
+Added Member To Class: ClassName=∂‡∆’¿’1.0 Member=Component P12 H1X2
+Added Member To Class: ClassName=∂‡∆’¿’1.0 Member=Component R3 RES
+Added Member To Class: ClassName=∂‡∆’¿’1.0 Member=Component U1 LM358
+Added Room: Name=∂‡∆’¿’1.0

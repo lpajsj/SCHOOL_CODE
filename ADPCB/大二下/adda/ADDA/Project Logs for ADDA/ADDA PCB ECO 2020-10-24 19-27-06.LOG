@@ -1,0 +1,7 @@
+Change Component Comment : Designator=YJ1 Old Comment=-极性 New Comment=FUJI
+Change Component Comment : Designator=YJ8 Old Comment=DIP2 New Comment=FU
+Change Component Comment : Designator=YJ9 Old Comment=DIP2 New Comment=PIN
+Change Component Comment : Designator=YJ2 Old Comment=双极性 New Comment=SHUANGJI
+Added Room: Name=ADDA
+Added Room: Name=U1
+Added Room: Name=U2

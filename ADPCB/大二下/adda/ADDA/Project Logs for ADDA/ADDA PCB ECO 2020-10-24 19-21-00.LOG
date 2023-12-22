@@ -1,0 +1,21 @@
+Removed Pin From Net: NetName=Net1_3 Pin=P1-1
+Change Component Designator: OldDesignator=R? NewDesignator=R10
+Change Component Designator: OldDesignator=R_VR? NewDesignator=R_VR2
+Added Component: Designator=K6(KEY_3)
+Added Component: Designator=P2(DC接口)
+Added Pin To Net: NetName=Net1_3 Pin=K6-3
+Added Pin To Net: NetName=NetP1_2 Pin=P1-3
+Added Pin To Net: NetName=NetA1_2 Pin=P2-3
+Added Pin To Net: NetName=NetP1_2 Pin=U1-11
+Change Net Name : Old Net Name=NetR?_2 New Net Name=NetR10_2
+Change Net Name : Old Net Name=NetR_VR?_2 New Net Name=NetR_VR2_2
+Added Pin To Net: NetName=NetK6_2 Pin=K6-2
+Added Pin To Net: NetName=NetK6_2 Pin=P1-1
+Added Pin To Net: NetName=NetK6_2 Pin=P2-1
+Added Net: Name=NetK6_2
+Added Member To Class: ClassName=U1 Member=Component K6 KEY_3
+Added Member To Class: ClassName=U1 Member=Component P2 DC接口
+Added Member To Class: ClassName=ADDA Member=Component U1 STC89C51
+Added Room: Name=ADDA
+Added Room: Name=U1
+Added Room: Name=U2

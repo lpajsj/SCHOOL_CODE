@@ -1,0 +1,14 @@
+Removed Pin From Net: NetName=NetU1_16 Pin=U2-16
+Removed Pin From Net: NetName=NetU1_15 Pin=U2-17
+Removed Pin From Net: NetName=NetU1_14 Pin=U2-18
+Removed Pin From Net: NetName=NetU1_13 Pin=U2-19
+Added Pin To Net: NetName=NetU1_16 Pin=U2-15
+Added Pin To Net: NetName=NetU1_15 Pin=U2-16
+Added Pin To Net: NetName=NetU1_14 Pin=U2-17
+Added Pin To Net: NetName=NetU1_13 Pin=U2-18
+Added Pin To Net: NetName=NetU1_12 Pin=U1-12
+Added Pin To Net: NetName=NetU1_12 Pin=U2-19
+Added Net: Name=NetU1_12
+Added Room: Name=ADDA
+Added Room: Name=U1
+Added Room: Name=U2

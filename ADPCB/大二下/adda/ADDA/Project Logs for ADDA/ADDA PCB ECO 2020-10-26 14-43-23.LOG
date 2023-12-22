@@ -1,0 +1,23 @@
+Removed Pin From Net: NetName=A1 Pin=R4-1
+Removed Pin From Net: NetName=A3 Pin=R6-1
+Removed Pin From Net: NetName=A6 Pin=R9-1
+Removed Pin From Net: NetName=A7 Pin=R10-1
+Removed Pin From Net: NetName=A8 Pin=R11-1
+Removed Pin From Net: NetName=B1 Pin=R19-1
+Removed Pin From Net: NetName=B3 Pin=R21-1
+Removed Pin From Net: NetName=B6 Pin=R24-1
+Removed Pin From Net: NetName=B7 Pin=R25-1
+Removed Pin From Net: NetName=B8 Pin=R26-1
+Added Pin To Net: NetName=A3 Pin=R4-1
+Added Pin To Net: NetName=A8 Pin=R6-1
+Added Pin To Net: NetName=A7 Pin=R9-1
+Added Pin To Net: NetName=A6 Pin=R10-1
+Added Pin To Net: NetName=A1 Pin=R11-1
+Added Pin To Net: NetName=B3 Pin=R19-1
+Added Pin To Net: NetName=B8 Pin=R21-1
+Added Pin To Net: NetName=B7 Pin=R24-1
+Added Pin To Net: NetName=B6 Pin=R25-1
+Added Pin To Net: NetName=B1 Pin=R26-1
+Added Room: Name=ADDA
+Added Room: Name=U1
+Added Room: Name=U2

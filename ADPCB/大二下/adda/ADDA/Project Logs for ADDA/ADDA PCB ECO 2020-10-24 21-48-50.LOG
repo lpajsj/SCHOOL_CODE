@@ -1,0 +1,7 @@
+Removed Member From Class: ClassName=U2 Member=YJ2
+Added Member To Class: ClassName=U1 Member=Component C1 CAP_ELEC
+Added Member To Class: ClassName=U2 Member=Component C4 CAP_ELEC
+Added Member To Class: ClassName=U2 Member=Component YJ6 FUJI
+Added Room: Name=ADDA
+Added Room: Name=U1
+Added Room: Name=U2

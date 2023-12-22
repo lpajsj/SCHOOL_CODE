@@ -1,0 +1,16 @@
+Added Component: Designator=M1(VET6_SUKAI)
+Added Pin To Net: NetName=VCC Pin=M1-5
+Added Pin To Net: NetName=VCC Pin=M1-6
+Added Pin To Net: NetName=VCC Pin=M1-7
+Added Pin To Net: NetName=IFIOUT Pin=M1-26
+Added Pin To Net: NetName=IFQOUT Pin=M1-28
+Added Pin To Net: NetName=NetM1_43 Pin=M1-43
+Added Pin To Net: NetName=NetM1_45 Pin=M1-45
+Added Pin To Net: NetName=NetM1_47 Pin=M1-47
+Added Pin To Net: NetName=NetM1_64 Pin=M1-64
+Added Pin To Net: NetName=NetL2_1 Pin=M1-70
+Added Pin To Net: NetName=NetM1_87 Pin=M1-87
+Added Pin To Net: NetName=NetM1_88 Pin=M1-88
+Added Pin To Net: NetName=NetM1_90 Pin=M1-90
+Added Pin To Net: NetName=NetD2_2 Pin=M1-92
+Added Member To Class: ClassName=∂‡∆’¿’1.0 Member=Component M1 VET6_SUKAI

@@ -1,0 +1,161 @@
+Removed Member From Class: ClassName=U1 Member=R60
+Added Component: Designator=S1(SM0038)
+Added Pin To Net: NetName=END Pin=HC1-8
+Added Pin To Net: NetName=END Pin=HC2-8
+Added Pin To Net: NetName=595SHCLK Pin=HC2-11
+Added Pin To Net: NetName=END Pin=HC3-8
+Added Pin To Net: NetName=1S8 Pin=HC3-14
+Added Pin To Net: NetName=END Pin=HC4-8
+Added Pin To Net: NetName=595SHCLK Pin=HC4-11
+Added Pin To Net: NetName=END Pin=HC5-8
+Added Pin To Net: NetName=595SHCLK Pin=HC5-11
+Added Pin To Net: NetName=END Pin=HC6-8
+Added Pin To Net: NetName=595SHCLK Pin=HC6-11
+Added Pin To Net: NetName=NetC1_1 Pin=S1-1
+Added Pin To Net: NetName=VCC Pin=S1-2
+Added Pin To Net: NetName=2S0 Pin=HC3-15
+Added Pin To Net: NetName=2S0 Pin=R20-1
+Added Net: Name=2S0
+Added Pin To Net: NetName=2S1 Pin=HC3-1
+Added Pin To Net: NetName=2S1 Pin=R21-1
+Added Net: Name=2S1
+Added Pin To Net: NetName=2S2 Pin=HC3-2
+Added Pin To Net: NetName=2S2 Pin=R22-1
+Added Net: Name=2S2
+Added Pin To Net: NetName=2S3 Pin=HC3-3
+Added Pin To Net: NetName=2S3 Pin=R23-1
+Added Net: Name=2S3
+Added Pin To Net: NetName=2S4 Pin=HC3-4
+Added Pin To Net: NetName=2S4 Pin=R24-1
+Added Net: Name=2S4
+Added Pin To Net: NetName=2S5 Pin=HC3-5
+Added Pin To Net: NetName=2S5 Pin=R25-1
+Added Net: Name=2S5
+Added Pin To Net: NetName=2S6 Pin=HC3-6
+Added Pin To Net: NetName=2S6 Pin=R26-1
+Added Net: Name=2S6
+Added Pin To Net: NetName=2S7 Pin=HC3-7
+Added Pin To Net: NetName=2S7 Pin=R27-1
+Added Net: Name=2S7
+Added Pin To Net: NetName=2S8 Pin=HC3-9
+Added Pin To Net: NetName=2S8 Pin=HC5-14
+Added Net: Name=2S8
+Added Pin To Net: NetName=3S0 Pin=HC5-15
+Added Pin To Net: NetName=3S0 Pin=R36-1
+Added Net: Name=3S0
+Added Pin To Net: NetName=3S1 Pin=HC5-1
+Added Pin To Net: NetName=3S1 Pin=R37-1
+Added Net: Name=3S1
+Added Pin To Net: NetName=3S2 Pin=HC5-2
+Added Pin To Net: NetName=3S2 Pin=R38-1
+Added Net: Name=3S2
+Added Pin To Net: NetName=3S3 Pin=HC5-3
+Added Pin To Net: NetName=3S3 Pin=R39-1
+Added Net: Name=3S3
+Added Pin To Net: NetName=3S4 Pin=HC5-4
+Added Pin To Net: NetName=3S4 Pin=R40-1
+Added Net: Name=3S4
+Added Pin To Net: NetName=3S5 Pin=HC5-5
+Added Pin To Net: NetName=3S5 Pin=R41-1
+Added Net: Name=3S5
+Added Pin To Net: NetName=3S6 Pin=HC5-6
+Added Pin To Net: NetName=3S6 Pin=R42-1
+Added Net: Name=3S6
+Added Pin To Net: NetName=3S7 Pin=HC5-7
+Added Pin To Net: NetName=3S7 Pin=R43-1
+Added Net: Name=3S7
+Added Pin To Net: NetName=3S8 Pin=HC5-9
+Added Pin To Net: NetName=3S8 Pin=HC6-14
+Added Net: Name=3S8
+Added Pin To Net: NetName=4S0 Pin=HC6-15
+Added Pin To Net: NetName=4S0 Pin=R50-1
+Added Net: Name=4S0
+Added Pin To Net: NetName=4S1 Pin=HC6-1
+Added Pin To Net: NetName=4S1 Pin=R51-1
+Added Net: Name=4S1
+Added Pin To Net: NetName=4S2 Pin=HC6-2
+Added Pin To Net: NetName=4S2 Pin=R52-1
+Added Net: Name=4S2
+Added Pin To Net: NetName=4S3 Pin=HC6-3
+Added Pin To Net: NetName=4S3 Pin=R53-1
+Added Net: Name=4S3
+Added Pin To Net: NetName=4S4 Pin=HC6-4
+Added Pin To Net: NetName=4S4 Pin=R54-1
+Added Net: Name=4S4
+Added Pin To Net: NetName=4S5 Pin=HC6-5
+Added Pin To Net: NetName=4S5 Pin=R55-1
+Added Net: Name=4S5
+Added Pin To Net: NetName=4S6 Pin=HC6-6
+Added Pin To Net: NetName=4S6 Pin=R56-1
+Added Net: Name=4S6
+Added Pin To Net: NetName=4S7 Pin=HC6-7
+Added Pin To Net: NetName=4S7 Pin=R57-1
+Added Net: Name=4S7
+Added Pin To Net: NetName=4S8 Pin=HC2-14
+Added Pin To Net: NetName=4S8 Pin=HC6-9
+Added Net: Name=4S8
+Added Pin To Net: NetName=5S0 Pin=HC2-15
+Added Pin To Net: NetName=5S0 Pin=R12-1
+Added Net: Name=5S0
+Added Pin To Net: NetName=5S1 Pin=HC2-1
+Added Pin To Net: NetName=5S1 Pin=R13-1
+Added Net: Name=5S1
+Added Pin To Net: NetName=5S2 Pin=HC2-2
+Added Pin To Net: NetName=5S2 Pin=R14-1
+Added Net: Name=5S2
+Added Pin To Net: NetName=5S3 Pin=HC2-3
+Added Pin To Net: NetName=5S3 Pin=R15-1
+Added Net: Name=5S3
+Added Pin To Net: NetName=5S4 Pin=HC2-4
+Added Pin To Net: NetName=5S4 Pin=R16-1
+Added Net: Name=5S4
+Added Pin To Net: NetName=5S5 Pin=HC2-5
+Added Pin To Net: NetName=5S5 Pin=R17-1
+Added Net: Name=5S5
+Added Pin To Net: NetName=5S6 Pin=HC2-6
+Added Pin To Net: NetName=5S6 Pin=R18-1
+Added Net: Name=5S6
+Added Pin To Net: NetName=5S7 Pin=HC2-7
+Added Pin To Net: NetName=5S7 Pin=R19-1
+Added Net: Name=5S7
+Added Pin To Net: NetName=5S8 Pin=HC2-9
+Added Pin To Net: NetName=5S8 Pin=HC4-14
+Added Net: Name=5S8
+Added Pin To Net: NetName=6S0 Pin=HC4-15
+Added Pin To Net: NetName=6S0 Pin=R28-1
+Added Net: Name=6S0
+Added Pin To Net: NetName=6S1 Pin=HC4-1
+Added Pin To Net: NetName=6S1 Pin=R29-1
+Added Net: Name=6S1
+Added Pin To Net: NetName=6S2 Pin=HC4-2
+Added Pin To Net: NetName=6S2 Pin=R30-1
+Added Net: Name=6S2
+Added Pin To Net: NetName=6S3 Pin=HC4-3
+Added Pin To Net: NetName=6S3 Pin=R31-1
+Added Net: Name=6S3
+Added Pin To Net: NetName=6S4 Pin=HC4-4
+Added Pin To Net: NetName=6S4 Pin=R32-1
+Added Net: Name=6S4
+Added Pin To Net: NetName=6S5 Pin=HC4-5
+Added Pin To Net: NetName=6S5 Pin=R33-1
+Added Net: Name=6S5
+Added Pin To Net: NetName=6S6 Pin=HC4-6
+Added Pin To Net: NetName=6S6 Pin=R34-1
+Added Net: Name=6S6
+Added Pin To Net: NetName=6S7 Pin=HC4-7
+Added Pin To Net: NetName=6S7 Pin=R35-1
+Added Net: Name=6S7
+Added Pin To Net: NetName=595SLCLK Pin=HC1-12
+Added Pin To Net: NetName=595SLCLK Pin=HC2-12
+Added Pin To Net: NetName=595SLCLK Pin=HC3-12
+Added Pin To Net: NetName=595SLCLK Pin=HC4-12
+Added Pin To Net: NetName=595SLCLK Pin=HC5-12
+Added Pin To Net: NetName=595SLCLK Pin=HC6-12
+Added Pin To Net: NetName=595SLCLK Pin=U1-16
+Added Net: Name=595SLCLK
+Added Pin To Net: NetName=NetS1_3 Pin=S1-3
+Added Pin To Net: NetName=NetS1_3 Pin=U1-12
+Added Net: Name=NetS1_3
+Added Member To Class: ClassName=U1 Member=Component S1 SM0038
+Added Room: Name=U1
+Added Room: Name=Ö÷Í¼

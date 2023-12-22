@@ -1,0 +1,10 @@
+Output: Report Project Hierarchy
+Type  : ReportHierarchy
+From  : Variant [[No Variations]] of Project [angeÏÔÊ¾¼üÅÌ.PrjPcb]
+   Generated File[Ö÷Í¼.REP]
+
+
+Files Generated   : 1
+Documents Printed : 0
+
+Finished Output Generation At 19:36:12 On 2020/10/8

@@ -1,0 +1,13 @@
+Removed Pin From Net: NetName=1S2 Pin=HC1-2
+Removed Pin From Net: NetName=1S5 Pin=HC1-5
+Removed Pin From Net: NetName=1S6 Pin=HC1-6
+Removed Pin From Net: NetName=1S7 Pin=HC1-7
+Removed Pin From Net: NetName=1S0 Pin=HC1-15
+Added Pin To Net: NetName=1S7 Pin=HC1-2
+Added Pin To Net: NetName=1S6 Pin=HC1-5
+Added Pin To Net: NetName=1S5 Pin=HC1-6
+Added Pin To Net: NetName=1S0 Pin=HC1-7
+Added Pin To Net: NetName=1S2 Pin=HC1-15
+Added Room: Name=U1
+Added Room: Name=U2
+Added Room: Name=Ö÷Í¼

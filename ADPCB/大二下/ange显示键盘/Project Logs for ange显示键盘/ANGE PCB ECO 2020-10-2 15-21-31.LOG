@@ -1,0 +1,247 @@
+Removed Member From Class: ClassName=U1 Member=2
+Removed Member From Class: ClassName=U1 Member=3
+Removed Member From Class: ClassName=U1 Member=4
+Removed Member From Class: ClassName=U1 Member=5
+Removed Member From Class: ClassName=U1 Member=6
+Removed Member From Class: ClassName=U1 Member=HC2
+Removed Member From Class: ClassName=U1 Member=HC3
+Removed Member From Class: ClassName=U1 Member=HC4
+Removed Member From Class: ClassName=U1 Member=HC5
+Removed Member From Class: ClassName=U1 Member=HC6
+Removed Member From Class: ClassName=U1 Member=R12
+Removed Member From Class: ClassName=U1 Member=R13
+Removed Member From Class: ClassName=U1 Member=R14
+Removed Member From Class: ClassName=U1 Member=R15
+Removed Member From Class: ClassName=U1 Member=R16
+Removed Member From Class: ClassName=U1 Member=R17
+Removed Member From Class: ClassName=U1 Member=R18
+Removed Member From Class: ClassName=U1 Member=R19
+Removed Member From Class: ClassName=U1 Member=R20
+Removed Member From Class: ClassName=U1 Member=R21
+Removed Member From Class: ClassName=U1 Member=R22
+Removed Member From Class: ClassName=U1 Member=R23
+Removed Member From Class: ClassName=U1 Member=R24
+Removed Member From Class: ClassName=U1 Member=R25
+Removed Member From Class: ClassName=U1 Member=R26
+Removed Member From Class: ClassName=U1 Member=R27
+Removed Member From Class: ClassName=U1 Member=R28
+Removed Member From Class: ClassName=U1 Member=R29
+Removed Member From Class: ClassName=U1 Member=R30
+Removed Member From Class: ClassName=U1 Member=R31
+Removed Member From Class: ClassName=U1 Member=R32
+Removed Member From Class: ClassName=U1 Member=R33
+Removed Member From Class: ClassName=U1 Member=R34
+Removed Member From Class: ClassName=U1 Member=R35
+Removed Member From Class: ClassName=U1 Member=R36
+Removed Member From Class: ClassName=U1 Member=R37
+Removed Member From Class: ClassName=U1 Member=R38
+Removed Member From Class: ClassName=U1 Member=R39
+Removed Member From Class: ClassName=U1 Member=R40
+Removed Member From Class: ClassName=U1 Member=R41
+Removed Member From Class: ClassName=U1 Member=R42
+Removed Member From Class: ClassName=U1 Member=R43
+Removed Member From Class: ClassName=U1 Member=R45
+Removed Member From Class: ClassName=U1 Member=R46
+Removed Member From Class: ClassName=U1 Member=R47
+Removed Member From Class: ClassName=U1 Member=R48
+Removed Member From Class: ClassName=U1 Member=R49
+Removed Member From Class: ClassName=U1 Member=R50
+Removed Member From Class: ClassName=U1 Member=R51
+Removed Member From Class: ClassName=U1 Member=R52
+Added Component: Designator=1(7SEG_8)
+Added Component: Designator=1(7SEG_8)
+Added Component: Designator=1(7SEG_8)
+Added Component: Designator=1(7SEG_8)
+Added Component: Designator=1(7SEG_8)
+Added Component: Designator=HC1(DIP_16)
+Added Component: Designator=HC1(DIP_16)
+Added Component: Designator=HC1(DIP_16)
+Added Component: Designator=HC1(DIP_16)
+Added Component: Designator=HC1(DIP_16)
+Added Component: Designator=R4(RES_DIP)
+Added Component: Designator=R4(RES_DIP)
+Added Component: Designator=R4(RES_DIP)
+Added Component: Designator=R4(RES_DIP)
+Added Component: Designator=R4(RES_DIP)
+Added Component: Designator=R5(RES_DIP)
+Added Component: Designator=R5(RES_DIP)
+Added Component: Designator=R5(RES_DIP)
+Added Component: Designator=R5(RES_DIP)
+Added Component: Designator=R5(RES_DIP)
+Added Component: Designator=R6(RES_DIP)
+Added Component: Designator=R6(RES_DIP)
+Added Component: Designator=R6(RES_DIP)
+Added Component: Designator=R6(RES_DIP)
+Added Component: Designator=R6(RES_DIP)
+Added Component: Designator=R7(RES_DIP)
+Added Component: Designator=R7(RES_DIP)
+Added Component: Designator=R7(RES_DIP)
+Added Component: Designator=R7(RES_DIP)
+Added Component: Designator=R7(RES_DIP)
+Added Component: Designator=R8(RES_DIP)
+Added Component: Designator=R8(RES_DIP)
+Added Component: Designator=R8(RES_DIP)
+Added Component: Designator=R8(RES_DIP)
+Added Component: Designator=R8(RES_DIP)
+Added Component: Designator=R9(RES_DIP)
+Added Component: Designator=R9(RES_DIP)
+Added Component: Designator=R9(RES_DIP)
+Added Component: Designator=R9(RES_DIP)
+Added Component: Designator=R9(RES_DIP)
+Added Component: Designator=R10(RES_DIP)
+Added Component: Designator=R10(RES_DIP)
+Added Component: Designator=R10(RES_DIP)
+Added Component: Designator=R10(RES_DIP)
+Added Component: Designator=R10(RES_DIP)
+Added Component: Designator=R11(RES_DIP)
+Added Component: Designator=R11(RES_DIP)
+Added Component: Designator=R11(RES_DIP)
+Added Component: Designator=R11(RES_DIP)
+Added Component: Designator=R11(RES_DIP)
+Added Component: Designator=R?(RES_DIP)
+Added Component: Designator=R?(RES_DIP)
+Added Component: Designator=R?(RES_DIP)
+Added Component: Designator=R?(RES_DIP)
+Added Component: Designator=R?(RES_DIP)
+Added Component: Designator=R?(RES_DIP)
+Added Component: Designator=R?(RES_DIP)
+Added Component: Designator=R?(RES_DIP)
+Added Pin To Net: NetName=Net1_2 Pin=1-2
+Added Pin To Net: NetName=Net1_2 Pin=R9-2
+Added Net: Name=Net1_2
+Added Pin To Net: NetName=Net1_3 Pin=1-3
+Added Pin To Net: NetName=Net1_3 Pin=R10-2
+Added Net: Name=Net1_3
+Added Pin To Net: NetName=Net1_4 Pin=1-4
+Added Pin To Net: NetName=Net1_4 Pin=R8-2
+Added Net: Name=Net1_4
+Added Pin To Net: NetName=Net1_5 Pin=1-5
+Added Pin To Net: NetName=Net1_5 Pin=R7-2
+Added Net: Name=Net1_5
+Added Pin To Net: NetName=Net1_7 Pin=1-7
+Added Pin To Net: NetName=Net1_7 Pin=R11-2
+Added Net: Name=Net1_7
+Added Pin To Net: NetName=Net1_8 Pin=1-8
+Added Pin To Net: NetName=Net1_8 Pin=R6-2
+Added Net: Name=Net1_8
+Added Pin To Net: NetName=Net1_9 Pin=1-9
+Added Pin To Net: NetName=Net1_9 Pin=R5-2
+Added Net: Name=Net1_9
+Added Pin To Net: NetName=Net1_10 Pin=1-10
+Added Pin To Net: NetName=Net1_10 Pin=R4-2
+Added Net: Name=Net1_10
+Added Pin To Net: NetName=NetD2_1 Pin=D2-1
+Added Pin To Net: NetName=NetD2_1 Pin=R44-1
+Added Net: Name=NetD2_1
+Added Pin To Net: NetName=NetD2_2 Pin=D2-2
+Added Pin To Net: NetName=NetD2_2 Pin=U1-8
+Added Net: Name=NetD2_2
+Added Pin To Net: NetName=NetD3_1 Pin=D3-1
+Added Pin To Net: NetName=NetD3_1 Pin=R?-1
+Added Net: Name=NetD3_1
+Added Pin To Net: NetName=NetD3_2 Pin=D3-2
+Added Pin To Net: NetName=NetD3_2 Pin=U1-7
+Added Net: Name=NetD3_2
+Added Pin To Net: NetName=NetD4_1 Pin=D4-1
+Added Pin To Net: NetName=NetD4_1 Pin=R?-1
+Added Net: Name=NetD4_1
+Added Pin To Net: NetName=NetD4_2 Pin=D4-2
+Added Pin To Net: NetName=NetD4_2 Pin=U1-6
+Added Net: Name=NetD4_2
+Added Pin To Net: NetName=NetD5_1 Pin=D5-1
+Added Pin To Net: NetName=NetD5_1 Pin=R?-1
+Added Net: Name=NetD5_1
+Added Pin To Net: NetName=NetD5_2 Pin=D5-2
+Added Pin To Net: NetName=NetD5_2 Pin=U1-5
+Added Net: Name=NetD5_2
+Added Pin To Net: NetName=NetD6_1 Pin=D6-1
+Added Pin To Net: NetName=NetD6_1 Pin=R?-1
+Added Net: Name=NetD6_1
+Added Pin To Net: NetName=NetD6_2 Pin=D6-2
+Added Pin To Net: NetName=NetD6_2 Pin=U1-4
+Added Net: Name=NetD6_2
+Added Pin To Net: NetName=NetD7_1 Pin=D7-1
+Added Pin To Net: NetName=NetD7_1 Pin=R?-1
+Added Net: Name=NetD7_1
+Added Pin To Net: NetName=NetD7_2 Pin=D7-2
+Added Pin To Net: NetName=NetD7_2 Pin=U1-3
+Added Net: Name=NetD7_2
+Added Pin To Net: NetName=NetD8_1 Pin=D8-1
+Added Pin To Net: NetName=NetD8_1 Pin=R?-1
+Added Net: Name=NetD8_1
+Added Pin To Net: NetName=NetD8_2 Pin=D8-2
+Added Pin To Net: NetName=NetD8_2 Pin=U1-2
+Added Net: Name=NetD8_2
+Added Pin To Net: NetName=NetD9_1 Pin=D9-1
+Added Pin To Net: NetName=NetD9_1 Pin=R?-1
+Added Net: Name=NetD9_1
+Added Pin To Net: NetName=NetD9_2 Pin=D9-2
+Added Pin To Net: NetName=NetD9_2 Pin=U1-1
+Added Net: Name=NetD9_2
+Added Pin To Net: NetName=NetR44_2 Pin=R44-2
+Added Pin To Net: NetName=NetR44_2 Pin=R?-2
+Added Pin To Net: NetName=NetR44_2 Pin=R?-2
+Added Pin To Net: NetName=NetR44_2 Pin=R?-2
+Added Pin To Net: NetName=NetR44_2 Pin=R?-2
+Added Pin To Net: NetName=NetR44_2 Pin=R?-2
+Added Net: Name=NetR44_2
+Added Member To Class: ClassName=U1 Member=Component 1 DPY_RED
+Added Member To Class: ClassName=U1 Member=Component 1 DPY_RED
+Added Member To Class: ClassName=U1 Member=Component 1 DPY_RED
+Added Member To Class: ClassName=U1 Member=Component 1 DPY_RED
+Added Member To Class: ClassName=U1 Member=Component 1 DPY_RED
+Added Member To Class: ClassName=U1 Member=Component HC1 74HC595
+Added Member To Class: ClassName=U1 Member=Component HC1 74HC595
+Added Member To Class: ClassName=U1 Member=Component HC1 74HC595
+Added Member To Class: ClassName=U1 Member=Component HC1 74HC595
+Added Member To Class: ClassName=U1 Member=Component HC1 74HC595
+Added Member To Class: ClassName=U1 Member=Component R4 RES
+Added Member To Class: ClassName=U1 Member=Component R4 RES
+Added Member To Class: ClassName=U1 Member=Component R4 RES
+Added Member To Class: ClassName=U1 Member=Component R4 RES
+Added Member To Class: ClassName=U1 Member=Component R4 RES
+Added Member To Class: ClassName=U1 Member=Component R5 RES
+Added Member To Class: ClassName=U1 Member=Component R5 RES
+Added Member To Class: ClassName=U1 Member=Component R5 RES
+Added Member To Class: ClassName=U1 Member=Component R5 RES
+Added Member To Class: ClassName=U1 Member=Component R5 RES
+Added Member To Class: ClassName=U1 Member=Component R6 RES
+Added Member To Class: ClassName=U1 Member=Component R6 RES
+Added Member To Class: ClassName=U1 Member=Component R6 RES
+Added Member To Class: ClassName=U1 Member=Component R6 RES
+Added Member To Class: ClassName=U1 Member=Component R6 RES
+Added Member To Class: ClassName=U1 Member=Component R7 RES
+Added Member To Class: ClassName=U1 Member=Component R7 RES
+Added Member To Class: ClassName=U1 Member=Component R7 RES
+Added Member To Class: ClassName=U1 Member=Component R7 RES
+Added Member To Class: ClassName=U1 Member=Component R7 RES
+Added Member To Class: ClassName=U1 Member=Component R8 RES
+Added Member To Class: ClassName=U1 Member=Component R8 RES
+Added Member To Class: ClassName=U1 Member=Component R8 RES
+Added Member To Class: ClassName=U1 Member=Component R8 RES
+Added Member To Class: ClassName=U1 Member=Component R8 RES
+Added Member To Class: ClassName=U1 Member=Component R9 RES
+Added Member To Class: ClassName=U1 Member=Component R9 RES
+Added Member To Class: ClassName=U1 Member=Component R9 RES
+Added Member To Class: ClassName=U1 Member=Component R9 RES
+Added Member To Class: ClassName=U1 Member=Component R9 RES
+Added Member To Class: ClassName=U1 Member=Component R10 RES
+Added Member To Class: ClassName=U1 Member=Component R10 RES
+Added Member To Class: ClassName=U1 Member=Component R10 RES
+Added Member To Class: ClassName=U1 Member=Component R10 RES
+Added Member To Class: ClassName=U1 Member=Component R10 RES
+Added Member To Class: ClassName=U1 Member=Component R11 RES
+Added Member To Class: ClassName=U1 Member=Component R11 RES
+Added Member To Class: ClassName=U1 Member=Component R11 RES
+Added Member To Class: ClassName=U1 Member=Component R11 RES
+Added Member To Class: ClassName=U1 Member=Component R11 RES
+Added Member To Class: ClassName=U1 Member=Component R? RES
+Added Member To Class: ClassName=U1 Member=Component R? RES
+Added Member To Class: ClassName=U1 Member=Component R? RES
+Added Member To Class: ClassName=U1 Member=Component R? RES
+Added Member To Class: ClassName=U1 Member=Component R? RES
+Added Member To Class: ClassName=U1 Member=Component R? RES
+Added Member To Class: ClassName=U1 Member=Component R? RES
+Added Member To Class: ClassName=U1 Member=Component R? RES
+Added Room: Name=U1
+Added Room: Name=Ö÷Í¼

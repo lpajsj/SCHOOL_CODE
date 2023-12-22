@@ -1,0 +1,10 @@
+Removed Pin From Net: NetName=595SHCLK Pin=HC1-11
+Removed Pin From Net: NetName=595SHCLK Pin=HC3-11
+Removed Pin From Net: NetName=595SHCLK Pin=U1-15
+Change Net Name : Old Net Name=595SHCLK New Net Name=VCC
+Added Pin To Net: NetName=595SHCLK Pin=HC1-11
+Added Pin To Net: NetName=595SHCLK Pin=HC3-11
+Added Pin To Net: NetName=595SHCLK Pin=U1-15
+Added Net: Name=595SHCLK
+Added Room: Name=U1
+Added Room: Name=Ö÷Í¼

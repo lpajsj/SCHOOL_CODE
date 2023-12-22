@@ -1,0 +1,9 @@
+Added Component: Designator=R18(RES_DIP)
+Added Pin To Net: NetName=A8 Pin=R18-1
+Added Pin To Net: NetName=Net1_10 Pin=1-10
+Added Pin To Net: NetName=Net1_10 Pin=R18-2
+Added Net: Name=Net1_10
+Added Member To Class: ClassName=U2 Member=Component R18 RES
+Added Room: Name=ADDA
+Added Room: Name=U1
+Added Room: Name=U2

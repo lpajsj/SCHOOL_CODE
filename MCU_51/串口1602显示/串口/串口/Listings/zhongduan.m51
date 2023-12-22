@@ -1,0 +1,166 @@
+BL51 BANKED LINKER/LOCATER V6.22.2.0                                                    09/01/2020  19:39:06  PAGE 1
+
+
+BL51 BANKED LINKER/LOCATER V6.22.2.0, INVOKED BY:
+D:\PROGRAM FILES (X86)\KEILC51\C51\BIN\BL51.EXE .\Objects\STARTUP.obj, .\Objects\zhongduan.obj TO .\Objects\zhongduan PR
+>> INT (.\Listings\zhongduan.m51)
+
+
+MEMORY MODEL: SMALL
+
+
+INPUT MODULES INCLUDED:
+  .\Objects\STARTUP.obj (?C_STARTUP)
+  .\Objects\zhongduan.obj (ZHONGDUAN)
+
+
+LINK MAP OF MODULE:  .\Objects\zhongduan (?C_STARTUP)
+
+
+            TYPE    BASE      LENGTH    RELOCATION   SEGMENT NAME
+            -----------------------------------------------------
+
+            * * * * * * *   D A T A   M E M O R Y   * * * * * * *
+            REG     0000H     0008H     ABSOLUTE     "REG BANK 0"
+            DATA    0008H     0001H     UNIT         _DATA_GROUP_
+            IDATA   0009H     0001H     UNIT         ?STACK
+
+            * * * * * * *   C O D E   M E M O R Y   * * * * * * *
+            CODE    0000H     0003H     ABSOLUTE     
+            CODE    0003H     0042H     UNIT         ?PR?MAIN?ZHONGDUAN
+            CODE    0045H     003EH     UNIT         ?PR?_DELAY?ZHONGDUAN
+            CODE    0083H     0018H     UNIT         ?CO?ZHONGDUAN
+            CODE    009BH     000CH     UNIT         ?C_C51STARTUP
+            CODE    00A7H     0008H     UNIT         ?PR?_SEND?ZHONGDUAN
+
+
+
+OVERLAY MAP OF MODULE:   .\Objects\zhongduan (?C_STARTUP)
+
+
+SEGMENT                          DATA_GROUP 
+  +--> CALLED SEGMENT          START    LENGTH
+----------------------------------------------
+?C_C51STARTUP                  -----    -----
+  +--> ?PR?MAIN?ZHONGDUAN
+
+?PR?MAIN?ZHONGDUAN             0008H    0001H
+  +--> ?PR?_DELAY?ZHONGDUAN
+  +--> ?CO?ZHONGDUAN
+  +--> ?PR?_SEND?ZHONGDUAN
+
+
+
+SYMBOL TABLE OF MODULE:  .\Objects\zhongduan (?C_STARTUP)
+
+  VALUE           TYPE          NAME
+  ----------------------------------
+
+  -------         MODULE        ?C_STARTUP
+  C:009BH         SEGMENT       ?C_C51STARTUP
+  I:0009H         SEGMENT       ?STACK
+BL51 BANKED LINKER/LOCATER V6.22.2.0                                                  09/01/2020  19:39:06  PAGE 2
+
+
+  C:0000H         PUBLIC        ?C_STARTUP
+  D:00E0H         SYMBOL        ACC
+  D:00F0H         SYMBOL        B
+  D:0083H         SYMBOL        DPH
+  D:0082H         SYMBOL        DPL
+  N:0000H         SYMBOL        IBPSTACK
+  N:0100H         SYMBOL        IBPSTACKTOP
+  N:0080H         SYMBOL        IDATALEN
+  C:009EH         SYMBOL        IDATALOOP
+  N:0000H         SYMBOL        PBPSTACK
+  N:0100H         SYMBOL        PBPSTACKTOP
+  N:0000H         SYMBOL        PDATALEN
+  N:0000H         SYMBOL        PDATASTART
+  N:0000H         SYMBOL        PPAGE
+  N:0000H         SYMBOL        PPAGEENABLE
+  D:00A0H         SYMBOL        PPAGE_SFR
+  D:0081H         SYMBOL        SP
+  C:009BH         SYMBOL        STARTUP1
+  N:0000H         SYMBOL        XBPSTACK
+  N:0000H         SYMBOL        XBPSTACKTOP
+  N:0000H         SYMBOL        XDATALEN
+  N:0000H         SYMBOL        XDATASTART
+  C:0000H         LINE#         126
+  C:009BH         LINE#         133
+  C:009DH         LINE#         134
+  C:009EH         LINE#         135
+  C:009FH         LINE#         136
+  C:00A1H         LINE#         185
+  C:00A4H         LINE#         196
+  -------         ENDMOD        ?C_STARTUP
+
+  -------         MODULE        ZHONGDUAN
+  C:0000H         SYMBOL        _ICE_DUMMY_
+  C:0045H         PUBLIC        _delay
+  B:0098H.1       PUBLIC        TI
+  D:00A0H         PUBLIC        p2
+  C:0003H         PUBLIC        main
+  C:00A7H         PUBLIC        _send
+  D:0099H         PUBLIC        SBUF
+  D:0087H         PUBLIC        PCON
+  D:0098H         PUBLIC        SCON
+  D:0089H         PUBLIC        TMOD
+  D:008DH         PUBLIC        TH1
+  D:008BH         PUBLIC        TL1
+  B:0088H.6       PUBLIC        TR1
+  C:008FH         PUBLIC        a
+  C:0083H         PUBLIC        b
+  -------         PROC          MAIN
+  -------         DO            
+  D:0008H         SYMBOL        i
+  -------         ENDDO         
+  C:0003H         LINE#         11
+  C:0003H         LINE#         12
+  C:0003H         LINE#         14
+  C:0006H         LINE#         15
+  C:0009H         LINE#         16
+  C:000CH         LINE#         17
+BL51 BANKED LINKER/LOCATER V6.22.2.0                                                  09/01/2020  19:39:06  PAGE 3
+
+
+  C:000FH         LINE#         18
+  C:0011H         LINE#         19
+  C:0014H         LINE#         20
+  C:001AH         LINE#         21
+  C:001AH         LINE#         22
+  C:001AH         LINE#         23
+  C:0028H         LINE#         24
+  C:0028H         LINE#         25
+  C:0030H         LINE#         26
+  C:003AH         LINE#         27
+  C:0041H         LINE#         28
+  -------         ENDPROC       MAIN
+  -------         PROC          _SEND
+  D:0007H         SYMBOL        shuju
+  C:00A7H         LINE#         31
+  C:00A7H         LINE#         32
+  C:00A7H         LINE#         34
+  C:00A9H         LINE#         35
+  C:00ACH         LINE#         37
+  C:00AEH         LINE#         38
+  -------         ENDPROC       _SEND
+  -------         PROC          _DELAY
+  D:0006H         SYMBOL        n
+  -------         DO            
+  D:0004H         SYMBOL        a
+  D:0005H         SYMBOL        b
+  D:0001H         SYMBOL        c
+  -------         ENDDO         
+  C:0045H         LINE#         39
+  C:0045H         LINE#         40
+  C:0045H         LINE#         42
+  C:004EH         LINE#         43
+  C:004EH         LINE#         44
+  C:005AH         LINE#         45
+  C:0066H         LINE#         46
+  C:007BH         LINE#         47
+  C:0082H         LINE#         48
+  -------         ENDPROC       _DELAY
+  -------         ENDMOD        ZHONGDUAN
+
+Program Size: data=10.0 xdata=0 code=175
+LINK/LOCATE RUN COMPLETE.  0 WARNING(S),  0 ERROR(S)

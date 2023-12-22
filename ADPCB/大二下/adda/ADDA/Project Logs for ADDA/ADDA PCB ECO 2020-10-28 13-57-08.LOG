@@ -1,0 +1,25 @@
+Added Pin To Net: NetName=END Pin=A1-2
+Added Pin To Net: NetName=END Pin=C2-2
+Added Pin To Net: NetName=END Pin=C3-2
+Added Pin To Net: NetName=END Pin=C6-2
+Added Pin To Net: NetName=END Pin=C7-2
+Added Pin To Net: NetName=END Pin=D3-2
+Added Pin To Net: NetName=END Pin=K3-1
+Added Pin To Net: NetName=END Pin=K3-1
+Added Pin To Net: NetName=END Pin=K4-1
+Added Pin To Net: NetName=END Pin=K4-1
+Added Pin To Net: NetName=END Pin=K5-1
+Added Pin To Net: NetName=END Pin=K5-1
+Added Pin To Net: NetName=END Pin=K6-1
+Added Pin To Net: NetName=END Pin=K6-1
+Added Pin To Net: NetName=END Pin=P1-2
+Added Pin To Net: NetName=END Pin=P1-3
+Added Pin To Net: NetName=END Pin=P2-4
+Added Pin To Net: NetName=END Pin=R1-1
+Added Pin To Net: NetName=END Pin=R_VR1-3
+Added Pin To Net: NetName=END Pin=R_VR2-3
+Added Pin To Net: NetName=END Pin=U1-20
+Added Pin To Net: NetName=END Pin=U2-10
+Added Room: Name=ADDA
+Added Room: Name=U1
+Added Room: Name=U2

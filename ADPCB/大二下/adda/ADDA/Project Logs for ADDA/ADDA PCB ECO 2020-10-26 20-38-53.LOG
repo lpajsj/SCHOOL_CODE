@@ -1,0 +1,23 @@
+Added Component: Designator=HC2(DIP_16)
+Added Pin To Net: NetName=B2 Pin=HC2-1
+Added Pin To Net: NetName=B3 Pin=HC2-2
+Added Pin To Net: NetName=B4 Pin=HC2-3
+Added Pin To Net: NetName=B5 Pin=HC2-4
+Added Pin To Net: NetName=B6 Pin=HC2-5
+Added Pin To Net: NetName=B7 Pin=HC2-6
+Added Pin To Net: NetName=B8 Pin=HC2-7
+Added Pin To Net: NetName=END Pin=HC2-8
+Added Pin To Net: NetName=Q2 Pin=HC2-9
+Added Pin To Net: NetName=VCC Pin=HC2-10
+Added Pin To Net: NetName=595HCLK Pin=HC2-11
+Added Pin To Net: NetName=595LCLK Pin=HC2-12
+Added Pin To Net: NetName=END Pin=HC2-13
+Added Pin To Net: NetName=Q1 Pin=HC2-14
+Added Pin To Net: NetName=B1 Pin=HC2-15
+Added Pin To Net: NetName=VCC Pin=HC2-16
+Added Member To Class: ClassName=U2 Member=Component HC2 74HC595
+Added Member To Class: ClassName=U2 Member=Component R23 RES
+Added Member To Class: ClassName=U2 Member=Component R24 RES
+Added Member To Class: ClassName=U2 Member=Component R25 RES
+Added Member To Class: ClassName=U2 Member=Component R26 RES
+Added Room: Name=U2

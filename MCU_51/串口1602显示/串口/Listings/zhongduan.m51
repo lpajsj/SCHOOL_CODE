@@ -1,0 +1,421 @@
+BL51 BANKED LINKER/LOCATER V6.22.2.0                                                    10/07/2020  21:23:44  PAGE 1
+
+
+BL51 BANKED LINKER/LOCATER V6.22.2.0, INVOKED BY:
+D:\PROGRAM FILES (X86)\KEILC51\C51\BIN\BL51.EXE .\Objects\STARTUP.obj, .\Objects\zhongduan.obj TO .\Objects\zhongduan PR
+>> INT (.\Listings\zhongduan.m51)
+
+
+MEMORY MODEL: SMALL
+
+
+INPUT MODULES INCLUDED:
+  .\Objects\STARTUP.obj (?C_STARTUP)
+  .\Objects\zhongduan.obj (ZHONGDUAN)
+  D:\PROGRAM FILES (X86)\KEILC51\C51\LIB\C51S.LIB (?C?CLDPTR)
+  D:\PROGRAM FILES (X86)\KEILC51\C51\LIB\C51S.LIB (?C?CLDOPTR)
+
+
+LINK MAP OF MODULE:  .\Objects\zhongduan (?C_STARTUP)
+
+
+            TYPE    BASE      LENGTH    RELOCATION   SEGMENT NAME
+            -----------------------------------------------------
+
+            * * * * * * *   D A T A   M E M O R Y   * * * * * * *
+            REG     0000H     0008H     ABSOLUTE     "REG BANK 0"
+            DATA    0008H     0004H     UNIT         ?DT?_DIYIERHANG16Y?ZHONGDUAN
+            DATA    000CH     0004H     UNIT         ?DT?_DIYIERHANG16?ZHONGDUAN
+            DATA    0010H     0004H     UNIT         ?DT?_DIYIERHANG16B?ZHONGDUAN
+            DATA    0014H     0003H     UNIT         ?DT?_DIYIHANG?ZHONGDUAN
+            DATA    0017H     0003H     UNIT         ?DT?_DIERHANG?ZHONGDUAN
+            DATA    001AH     0001H     UNIT         _DATA_GROUP_
+            IDATA   001BH     0001H     UNIT         ?STACK
+
+            * * * * * * *   C O D E   M E M O R Y   * * * * * * *
+            CODE    0000H     0003H     ABSOLUTE     
+            CODE    0003H     004AH     UNIT         ?PR?_DIYIERHANG16B?ZHONGDUAN
+            CODE    004DH     0046H     UNIT         ?C?LIB_CODE
+            CODE    0093H     0042H     UNIT         ?PR?MAIN?ZHONGDUAN
+            CODE    00D5H     0042H     UNIT         ?PR?_DELAY?ZHONGDUAN
+            CODE    0117H     0040H     UNIT         ?PR?_DIYIERHANG16?ZHONGDUAN
+            CODE    0157H     003CH     UNIT         ?PR?_DIYIERHANG16Y?ZHONGDUAN
+            CODE    0193H     002CH     UNIT         ?PR?_DIYIHANG?ZHONGDUAN
+            CODE    01BFH     002CH     UNIT         ?PR?_DIERHANG?ZHONGDUAN
+            CODE    01EBH     0024H     UNIT         ?PR?CHUSHIHUA?ZHONGDUAN
+            CODE    020FH     0021H     UNIT         ?PR?_XIESHUJU?ZHONGDUAN
+            CODE    0230H     0018H     UNIT         ?CO?ZHONGDUAN
+            CODE    0248H     0012H     UNIT         ?PR?CHAMANG?ZHONGDUAN
+            CODE    025AH     0011H     UNIT         ?PR?_XIEMINGLING?ZHONGDUAN
+            CODE    026BH     000CH     UNIT         ?C_C51STARTUP
+            CODE    0277H     0008H     UNIT         ?PR?_SEND?ZHONGDUAN
+
+
+
+OVERLAY MAP OF MODULE:   .\Objects\zhongduan (?C_STARTUP)
+
+
+SEGMENT                                DATA_GROUP 
+  +--> CALLED SEGMENT                START    LENGTH
+----------------------------------------------------
+?C_C51STARTUP                        -----    -----
+BL51 BANKED LINKER/LOCATER V6.22.2.0                                                  10/07/2020  21:23:44  PAGE 2
+
+
+  +--> ?PR?MAIN?ZHONGDUAN
+
+?PR?MAIN?ZHONGDUAN                   001AH    0001H
+  +--> ?PR?_DELAY?ZHONGDUAN
+  +--> ?CO?ZHONGDUAN
+  +--> ?PR?_SEND?ZHONGDUAN
+
+
+
+UNRESOLVED EXTERNAL SYMBOLS:
+   DELAY10US
+
+
+
+SYMBOL TABLE OF MODULE:  .\Objects\zhongduan (?C_STARTUP)
+
+  VALUE           TYPE          NAME
+  ----------------------------------
+
+  -------         MODULE        ?C_STARTUP
+  C:026BH         SEGMENT       ?C_C51STARTUP
+  I:001BH         SEGMENT       ?STACK
+  C:0000H         PUBLIC        ?C_STARTUP
+  D:00E0H         SYMBOL        ACC
+  D:00F0H         SYMBOL        B
+  D:0083H         SYMBOL        DPH
+  D:0082H         SYMBOL        DPL
+  N:0000H         SYMBOL        IBPSTACK
+  N:0100H         SYMBOL        IBPSTACKTOP
+  N:0080H         SYMBOL        IDATALEN
+  C:026EH         SYMBOL        IDATALOOP
+  N:0000H         SYMBOL        PBPSTACK
+  N:0100H         SYMBOL        PBPSTACKTOP
+  N:0000H         SYMBOL        PDATALEN
+  N:0000H         SYMBOL        PDATASTART
+  N:0000H         SYMBOL        PPAGE
+  N:0000H         SYMBOL        PPAGEENABLE
+  D:00A0H         SYMBOL        PPAGE_SFR
+  D:0081H         SYMBOL        SP
+  C:026BH         SYMBOL        STARTUP1
+  N:0000H         SYMBOL        XBPSTACK
+  N:0000H         SYMBOL        XBPSTACKTOP
+  N:0000H         SYMBOL        XDATALEN
+  N:0000H         SYMBOL        XDATASTART
+  C:0000H         LINE#         126
+  C:026BH         LINE#         133
+  C:026DH         LINE#         134
+  C:026EH         LINE#         135
+  C:026FH         LINE#         136
+  C:0271H         LINE#         185
+  C:0274H         LINE#         196
+  -------         ENDMOD        ?C_STARTUP
+
+  -------         MODULE        ZHONGDUAN
+  C:0000H         SYMBOL        _ICE_DUMMY_
+  D:00A0H         PUBLIC        P2
+  C:0157H         PUBLIC        _diyierhang16y
+BL51 BANKED LINKER/LOCATER V6.22.2.0                                                  10/07/2020  21:23:44  PAGE 3
+
+
+  C:00D9H         PUBLIC        _delay
+  C:0117H         PUBLIC        _diyierhang16
+  B:0098H.1       PUBLIC        TI
+  D:0090H         PUBLIC        p2
+  C:025AH         PUBLIC        _xiemingling
+  B:00A0H.5       PUBLIC        RS
+  C:0093H         PUBLIC        main
+  B:00A0H.6       PUBLIC        RW
+  C:0277H         PUBLIC        _send
+  D:0099H         PUBLIC        SBUF
+  D:0087H         PUBLIC        PCON
+  D:0080H         PUBLIC        shuju
+  D:0098H         PUBLIC        SCON
+  D:0089H         PUBLIC        TMOD
+  B:00A0H.7       PUBLIC        E
+  C:01BFH         PUBLIC        _dierhang
+  C:01EBH         PUBLIC        chushihua
+  D:008DH         PUBLIC        TH1
+  D:008BH         PUBLIC        TL1
+  C:0193H         PUBLIC        _diyihang
+  C:0248H         PUBLIC        chamang
+  B:0088H.6       PUBLIC        TR1
+  C:023CH         PUBLIC        a
+  C:0230H         PUBLIC        b
+  C:0003H         PUBLIC        _diyierhang16b
+  C:021FH         PUBLIC        _xieshuju
+  -------         PROC          MAIN
+  -------         DO            
+  D:001AH         SYMBOL        i
+  -------         ENDDO         
+  C:0093H         LINE#         17
+  C:0093H         LINE#         18
+  C:0093H         LINE#         20
+  C:0096H         LINE#         21
+  C:0099H         LINE#         22
+  C:009CH         LINE#         23
+  C:009FH         LINE#         24
+  C:00A1H         LINE#         25
+  C:00A4H         LINE#         26
+  C:00AAH         LINE#         27
+  C:00AAH         LINE#         28
+  C:00AAH         LINE#         29
+  C:00B8H         LINE#         30
+  C:00B8H         LINE#         31
+  C:00C0H         LINE#         32
+  C:00CAH         LINE#         33
+  C:00D1H         LINE#         34
+  -------         ENDPROC       MAIN
+  -------         PROC          _SEND
+  D:0007H         SYMBOL        shu
+  C:0277H         LINE#         37
+  C:0277H         LINE#         38
+  C:0277H         LINE#         40
+  C:0279H         LINE#         41
+  C:027CH         LINE#         43
+  C:027EH         LINE#         44
+  -------         ENDPROC       _SEND
+BL51 BANKED LINKER/LOCATER V6.22.2.0                                                  10/07/2020  21:23:44  PAGE 4
+
+
+  C:00D5H         SYMBOL        L?0055
+  -------         PROC          L?0054
+  -------         ENDPROC       L?0054
+  C:00D5H         SYMBOL        L?0055
+  -------         PROC          _DELAY
+  D:0006H         SYMBOL        n
+  -------         DO            
+  D:0004H         SYMBOL        a
+  D:0005H         SYMBOL        b
+  D:0001H         SYMBOL        c
+  -------         ENDDO         
+  C:00D9H         LINE#         45
+  C:00D9H         LINE#         46
+  C:00D9H         LINE#         48
+  C:00E2H         LINE#         49
+  C:00E2H         LINE#         50
+  C:00EEH         LINE#         51
+  C:00FAH         LINE#         52
+  C:010FH         LINE#         53
+  C:0116H         LINE#         54
+  -------         ENDPROC       _DELAY
+  -------         PROC          _XIEMINGLING
+  D:0007H         SYMBOL        a
+  C:025AH         LINE#         55
+  C:025AH         LINE#         56
+  C:025AH         LINE#         58
+  C:025CH         LINE#         59
+  C:025EH         LINE#         60
+  C:0260H         LINE#         61
+  C:0262H         LINE#         62
+  C:0264H         LINE#         63
+  C:0265H         LINE#         64
+  C:0268H         LINE#         65
+  C:026AH         LINE#         66
+  -------         ENDPROC       _XIEMINGLING
+  C:0218H         SYMBOL        L?0053
+  -------         PROC          L?0052
+  -------         ENDPROC       L?0052
+  C:0218H         SYMBOL        L?0053
+  -------         PROC          _XIESHUJU
+  D:0007H         SYMBOL        a
+  C:021FH         LINE#         67
+  C:021FH         LINE#         68
+  C:021FH         LINE#         70
+  C:0221H         LINE#         71
+  C:0223H         LINE#         72
+  C:0225H         LINE#         73
+  C:0227H         LINE#         74
+  C:0229H         LINE#         75
+  C:022AH         LINE#         76
+  C:022DH         LINE#         77
+  C:022FH         LINE#         78
+  -------         ENDPROC       _XIESHUJU
+  -------         PROC          CHAMANG
+  -------         DO            
+  D:0007H         SYMBOL        b
+  -------         ENDDO         
+BL51 BANKED LINKER/LOCATER V6.22.2.0                                                  10/07/2020  21:23:44  PAGE 5
+
+
+  C:0248H         LINE#         79
+  C:0248H         LINE#         80
+  C:0248H         LINE#         83
+  C:0248H         LINE#         84
+  C:0248H         LINE#         85
+  C:024AH         LINE#         86
+  C:024CH         LINE#         87
+  C:024EH         LINE#         88
+  C:0250H         LINE#         89
+  C:0251H         LINE#         90
+  C:0253H         LINE#         91
+  C:0257H         LINE#         92
+  C:0259H         LINE#         93
+  -------         ENDPROC       CHAMANG
+  -------         PROC          CHUSHIHUA
+  C:01EBH         LINE#         94
+  C:01EBH         LINE#         95
+  C:01EBH         LINE#         96
+  C:01F0H         LINE#         97
+  C:01F3H         LINE#         98
+  C:01F8H         LINE#         99
+  C:01FBH         LINE#         100
+  C:0200H         LINE#         101
+  C:0203H         LINE#         102
+  C:0208H         LINE#         103
+  -------         ENDPROC       CHUSHIHUA
+  -------         PROC          _DIYIHANG
+  D:0014H         SYMBOL        a
+  D:0007H         SYMBOL        x
+  C:0193H         LINE#         106
+  C:019BH         LINE#         107
+  C:019BH         LINE#         108
+  C:019FH         LINE#         109
+  C:01A2H         LINE#         110
+  C:01AEH         LINE#         111
+  C:01AEH         LINE#         112
+  C:01B1H         LINE#         113
+  C:01BCH         LINE#         114
+  C:01BEH         LINE#         116
+  -------         ENDPROC       _DIYIHANG
+  -------         PROC          _DIERHANG
+  D:0017H         SYMBOL        a
+  D:0007H         SYMBOL        x
+  C:01BFH         LINE#         117
+  C:01C7H         LINE#         118
+  C:01C7H         LINE#         119
+  C:01CBH         LINE#         120
+  C:01CEH         LINE#         121
+  C:01DAH         LINE#         122
+  C:01DAH         LINE#         123
+  C:01DDH         LINE#         124
+  C:01E8H         LINE#         125
+  C:01EAH         LINE#         127
+  -------         ENDPROC       _DIERHANG
+  -------         PROC          _DIYIERHANG16Y
+  D:0008H         SYMBOL        a
+  -------         DO            
+BL51 BANKED LINKER/LOCATER V6.22.2.0                                                  10/07/2020  21:23:44  PAGE 6
+
+
+  D:000BH         SYMBOL        i
+  -------         ENDDO         
+  C:0157H         LINE#         128
+  C:015DH         LINE#         129
+  C:015DH         LINE#         130
+  C:0160H         LINE#         131
+  C:0165H         LINE#         132
+  C:016BH         LINE#         133
+  C:016BH         LINE#         134
+  C:016EH         LINE#         135
+  C:0175H         LINE#         136
+  C:0177H         LINE#         137
+  C:0179H         LINE#         138
+  C:017EH         LINE#         139
+  C:0184H         LINE#         140
+  C:0184H         LINE#         141
+  C:0187H         LINE#         142
+  C:018EH         LINE#         143
+  C:0190H         LINE#         144
+  C:0192H         LINE#         145
+  -------         ENDPROC       _DIYIERHANG16Y
+  -------         PROC          _DIYIERHANG16
+  D:000CH         SYMBOL        a
+  -------         DO            
+  D:000FH         SYMBOL        i
+  -------         ENDDO         
+  C:0117H         LINE#         146
+  C:011DH         LINE#         147
+  C:011DH         LINE#         148
+  C:0120H         LINE#         149
+  C:0125H         LINE#         150
+  C:012BH         LINE#         151
+  C:012BH         LINE#         152
+  C:0137H         LINE#         153
+  C:0139H         LINE#         154
+  C:013BH         LINE#         155
+  C:0140H         LINE#         156
+  C:0146H         LINE#         157
+  C:0146H         LINE#         158
+  C:0152H         LINE#         159
+  C:0154H         LINE#         160
+  C:0156H         LINE#         161
+  -------         ENDPROC       _DIYIERHANG16
+  -------         PROC          _DIYIERHANG16B
+  D:0010H         SYMBOL        a
+  -------         DO            
+  D:0013H         SYMBOL        i
+  -------         ENDDO         
+  C:0003H         LINE#         162
+  C:0009H         LINE#         163
+  C:0009H         LINE#         164
+  C:000CH         LINE#         165
+  C:0011H         LINE#         166
+  C:0016H         LINE#         167
+  C:001BH         LINE#         168
+  C:0021H         LINE#         169
+  C:0021H         LINE#         170
+BL51 BANKED LINKER/LOCATER V6.22.2.0                                                  10/07/2020  21:23:44  PAGE 7
+
+
+  C:002DH         LINE#         171
+  C:002FH         LINE#         172
+  C:0031H         LINE#         173
+  C:0036H         LINE#         174
+  C:003CH         LINE#         175
+  C:003CH         LINE#         176
+  C:0048H         LINE#         177
+  C:004AH         LINE#         178
+  C:004CH         LINE#         179
+  -------         ENDPROC       _DIYIERHANG16B
+  -------         ENDMOD        ZHONGDUAN
+
+  -------         MODULE        ?C?CLDPTR
+  C:004DH         PUBLIC        ?C?CLDPTR
+  -------         ENDMOD        ?C?CLDPTR
+
+  -------         MODULE        ?C?CLDOPTR
+  C:0066H         PUBLIC        ?C?CLDOPTR
+  -------         ENDMOD        ?C?CLDOPTR
+
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?CHAMANG?ZHONGDUAN
+
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?CHUSHIHUA?ZHONGDUAN
+
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?_DIYIHANG?ZHONGDUAN
+
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?_DIERHANG?ZHONGDUAN
+
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?_DIYIERHANG16Y?ZHONGDUAN
+
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?_DIYIERHANG16?ZHONGDUAN
+
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?_DIYIERHANG16B?ZHONGDUAN
+
+*** WARNING L1: UNRESOLVED EXTERNAL SYMBOL
+    SYMBOL:  DELAY10US
+    MODULE:  .\Objects\zhongduan.obj (ZHONGDUAN)
+
+*** WARNING L2: REFERENCE MADE TO UNRESOLVED EXTERNAL
+    SYMBOL:  DELAY10US
+    MODULE:  .\Objects\zhongduan.obj (ZHONGDUAN)
+    ADDRESS: 0266H
+
+*** WARNING L2: REFERENCE MADE TO UNRESOLVED EXTERNAL
+    SYMBOL:  DELAY10US
+    MODULE:  .\Objects\zhongduan.obj (ZHONGDUAN)
+    ADDRESS: 022BH
+
+Program Size: data=28.0 xdata=0 code=639
+LINK/LOCATE RUN COMPLETE.  10 WARNING(S),  0 ERROR(S)

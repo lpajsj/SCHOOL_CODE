@@ -1,0 +1,5 @@
+Change Component Footprint: Designator=C3 Old Footprint=CAP[103] New Footprint=CAP[16V]
+Change Component Footprint: Designator=C5 Old Footprint=CAP[103] New Footprint=CAP[16V]
+Added Room: Name=ADDA
+Added Room: Name=U1
+Added Room: Name=U2

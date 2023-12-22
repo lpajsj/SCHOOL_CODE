@@ -1,0 +1,249 @@
+Added Component: Designator=1(7SEG_8)
+Added Component: Designator=2(7SEG_8)
+Added Component: Designator=3(7SEG_8)
+Added Component: Designator=4(7SEG_8)
+Added Component: Designator=5(7SEG_8)
+Added Component: Designator=6(7SEG_8)
+Added Component: Designator=C1(CAP[0603])
+Added Component: Designator=C2(CAP[0603])
+Added Component: Designator=C3(CAP[103])
+Added Component: Designator=C4(Cap-Dip)
+Added Component: Designator=C5(CAP[16V])
+Added Component: Designator=D1(LED)
+Added Component: Designator=D2(LED)
+Added Component: Designator=D3(LED)
+Added Component: Designator=D4(LED)
+Added Component: Designator=D5(LED)
+Added Component: Designator=D6(LED)
+Added Component: Designator=D7(LED)
+Added Component: Designator=D8(LED)
+Added Component: Designator=D9(LED)
+Added Component: Designator=HC1(DIP_16)
+Added Component: Designator=HC2(DIP_16)
+Added Component: Designator=HC3(DIP_16)
+Added Component: Designator=HC4(DIP_16)
+Added Component: Designator=HC5(DIP_16)
+Added Component: Designator=HC6(DIP_16)
+Added Component: Designator=K1(KEY_3)
+Added Component: Designator=K2(BigButton)
+Added Component: Designator=P1(H2.54_1X4)
+Added Component: Designator=P2(DC接口)
+Added Component: Designator=Q1(TO_92)
+Added Component: Designator=R1(RES_DIP)
+Added Component: Designator=R2(RES_DIP)
+Added Component: Designator=R3(RES_DIP)
+Added Component: Designator=R4(RES_DIP)
+Added Component: Designator=R5(RES_DIP)
+Added Component: Designator=R6(RES_DIP)
+Added Component: Designator=R7(RES_DIP)
+Added Component: Designator=R8(RES_DIP)
+Added Component: Designator=R9(RES_DIP)
+Added Component: Designator=R10(RES_DIP)
+Added Component: Designator=R11(RES_DIP)
+Added Component: Designator=R12(RES_DIP)
+Added Component: Designator=R13(RES_DIP)
+Added Component: Designator=R14(RES_DIP)
+Added Component: Designator=R15(RES_DIP)
+Added Component: Designator=R16(RES_DIP)
+Added Component: Designator=R17(RES_DIP)
+Added Component: Designator=R18(RES_DIP)
+Added Component: Designator=R19(RES_DIP)
+Added Component: Designator=R20(RES_DIP)
+Added Component: Designator=R21(RES_DIP)
+Added Component: Designator=R22(RES_DIP)
+Added Component: Designator=R23(RES_DIP)
+Added Component: Designator=R24(RES_DIP)
+Added Component: Designator=R25(RES_DIP)
+Added Component: Designator=R26(RES_DIP)
+Added Component: Designator=R27(RES_DIP)
+Added Component: Designator=R28(RES_DIP)
+Added Component: Designator=R29(RES_DIP)
+Added Component: Designator=R30(RES_DIP)
+Added Component: Designator=R31(RES_DIP)
+Added Component: Designator=R32(RES_DIP)
+Added Component: Designator=R33(RES_DIP)
+Added Component: Designator=R34(RES_DIP)
+Added Component: Designator=R35(RES_DIP)
+Added Component: Designator=R36(RES_DIP)
+Added Component: Designator=R37(RES_DIP)
+Added Component: Designator=R38(RES_DIP)
+Added Component: Designator=R39(RES_DIP)
+Added Component: Designator=R40(RES_DIP)
+Added Component: Designator=R41(RES_DIP)
+Added Component: Designator=R42(RES_DIP)
+Added Component: Designator=R43(RES_DIP)
+Added Component: Designator=R44(RES_DIP)
+Added Component: Designator=R45(RES_DIP)
+Added Component: Designator=R46(RES_DIP)
+Added Component: Designator=R47(RES_DIP)
+Added Component: Designator=R48(RES_DIP)
+Added Component: Designator=R49(RES_DIP)
+Added Component: Designator=R50(RES_DIP)
+Added Component: Designator=R51(RES_DIP)
+Added Component: Designator=R52(RES_DIP)
+Added Component: Designator=U1(DIP_40)
+Added Component: Designator=U2(BEEP)
+Added Component: Designator=X1(XTAL_DIP)
+Added Pin To Net: NetName=NetC1_1 Pin=C1-1
+Added Pin To Net: NetName=NetC1_2 Pin=C1-2
+Added Pin To Net: NetName=NetC1_1 Pin=C2-1
+Added Pin To Net: NetName=NetC2_2 Pin=C2-2
+Added Pin To Net: NetName=NetC3_1 Pin=C3-1
+Added Pin To Net: NetName=NetC1_1 Pin=C3-2
+Added Pin To Net: NetName=NetC4_1 Pin=C4-1
+Added Pin To Net: NetName=NetC3_1 Pin=C4-2
+Added Pin To Net: NetName=NetC3_1 Pin=C5-1
+Added Pin To Net: NetName=NetC1_1 Pin=C5-2
+Added Pin To Net: NetName=NetD1_1 Pin=D1-1
+Added Pin To Net: NetName=NetC1_1 Pin=D1-2
+Added Pin To Net: NetName=NetK1_2 Pin=K1-2
+Added Pin To Net: NetName=NetC3_1 Pin=K1-3
+Added Pin To Net: NetName=NetC4_1 Pin=K2-1
+Added Pin To Net: NetName=NetC4_1 Pin=K2-1
+Added Pin To Net: NetName=NetC3_1 Pin=K2-2
+Added Pin To Net: NetName=NetC3_1 Pin=K2-2
+Added Pin To Net: NetName=NetK1_2 Pin=P1-1
+Added Pin To Net: NetName=NetP1_2 Pin=P1-2
+Added Pin To Net: NetName=NetP1_3 Pin=P1-3
+Added Pin To Net: NetName=NetC1_1 Pin=P1-4
+Added Pin To Net: NetName=NetK1_2 Pin=P2-1
+Added Pin To Net: NetName=NetC1_1 Pin=P2-3
+Added Pin To Net: NetName=NetQ1_1 Pin=Q1-1
+Added Pin To Net: NetName=NetQ1_2 Pin=Q1-2
+Added Pin To Net: NetName=NetC1_1 Pin=Q1-3
+Added Pin To Net: NetName=NetD1_1 Pin=R1-1
+Added Pin To Net: NetName=NetC3_1 Pin=R1-2
+Added Pin To Net: NetName=NetC1_1 Pin=R2-1
+Added Pin To Net: NetName=NetC4_1 Pin=R2-2
+Added Pin To Net: NetName=NetR3_1 Pin=R3-1
+Added Pin To Net: NetName=NetQ1_2 Pin=R3-2
+Added Pin To Net: NetName=NetU1_1 Pin=U1-1
+Added Pin To Net: NetName=NetU1_2 Pin=U1-2
+Added Pin To Net: NetName=NetU1_3 Pin=U1-3
+Added Pin To Net: NetName=NetU1_4 Pin=U1-4
+Added Pin To Net: NetName=NetU1_5 Pin=U1-5
+Added Pin To Net: NetName=NetU1_6 Pin=U1-6
+Added Pin To Net: NetName=NetU1_7 Pin=U1-7
+Added Pin To Net: NetName=NetU1_8 Pin=U1-8
+Added Pin To Net: NetName=NetC4_1 Pin=U1-9
+Added Pin To Net: NetName=NetP1_2 Pin=U1-10
+Added Pin To Net: NetName=NetP1_3 Pin=U1-11
+Added Pin To Net: NetName=NetU1_12 Pin=U1-12
+Added Pin To Net: NetName=NetR3_1 Pin=U1-13
+Added Pin To Net: NetName=NetU1_14 Pin=U1-14
+Added Pin To Net: NetName=NetU1_15 Pin=U1-15
+Added Pin To Net: NetName=NetU1_16 Pin=U1-16
+Added Pin To Net: NetName=NetU1_17 Pin=U1-17
+Added Pin To Net: NetName=NetC1_2 Pin=U1-18
+Added Pin To Net: NetName=NetC2_2 Pin=U1-19
+Added Pin To Net: NetName=NetC1_1 Pin=U1-20
+Added Pin To Net: NetName=NetU1_21 Pin=U1-21
+Added Pin To Net: NetName=NetU1_22 Pin=U1-22
+Added Pin To Net: NetName=NetU1_23 Pin=U1-23
+Added Pin To Net: NetName=NetU1_24 Pin=U1-24
+Added Pin To Net: NetName=NetU1_25 Pin=U1-25
+Added Pin To Net: NetName=NetU1_26 Pin=U1-26
+Added Pin To Net: NetName=NetU1_27 Pin=U1-27
+Added Pin To Net: NetName=NetU1_28 Pin=U1-28
+Added Pin To Net: NetName=NetC3_1 Pin=U1-31
+Added Pin To Net: NetName=NetU1_32 Pin=U1-32
+Added Pin To Net: NetName=NetU1_33 Pin=U1-33
+Added Pin To Net: NetName=NetU1_34 Pin=U1-34
+Added Pin To Net: NetName=NetU1_35 Pin=U1-35
+Added Pin To Net: NetName=NetU1_36 Pin=U1-36
+Added Pin To Net: NetName=NetU1_37 Pin=U1-37
+Added Pin To Net: NetName=NetU1_38 Pin=U1-38
+Added Pin To Net: NetName=NetU1_39 Pin=U1-39
+Added Pin To Net: NetName=NetC3_1 Pin=U1-40
+Added Pin To Net: NetName=NetC3_1 Pin=U2-1
+Added Pin To Net: NetName=NetQ1_1 Pin=U2-2
+Added Pin To Net: NetName=NetC1_2 Pin=X1-1
+Added Pin To Net: NetName=NetC2_2 Pin=X1-2
+Added Member To Class: ClassName=U1 Member=Component 1 DPY_RED
+Added Member To Class: ClassName=U1 Member=Component 2 DPY_RED
+Added Member To Class: ClassName=U1 Member=Component 3 DPY_RED
+Added Member To Class: ClassName=U1 Member=Component 4 DPY_RED
+Added Member To Class: ClassName=U1 Member=Component 5 DPY_RED
+Added Member To Class: ClassName=U1 Member=Component 6 DPY_RED
+Added Member To Class: ClassName=U1 Member=Component C1 CAP
+Added Member To Class: ClassName=U1 Member=Component C2 CAP
+Added Member To Class: ClassName=U1 Member=Component C3 CAP_ELEC
+Added Member To Class: ClassName=U1 Member=Component C4 CAP
+Added Member To Class: ClassName=U1 Member=Component C5 CAP_ELEC
+Added Member To Class: ClassName=U1 Member=Component D1 LED
+Added Member To Class: ClassName=U1 Member=Component D2 LED
+Added Member To Class: ClassName=U1 Member=Component D3 LED
+Added Member To Class: ClassName=U1 Member=Component D4 LED
+Added Member To Class: ClassName=U1 Member=Component D5 LED
+Added Member To Class: ClassName=U1 Member=Component D6 LED
+Added Member To Class: ClassName=U1 Member=Component D7 LED
+Added Member To Class: ClassName=U1 Member=Component D8 LED
+Added Member To Class: ClassName=U1 Member=Component D9 LED
+Added Member To Class: ClassName=U1 Member=Component HC1 74HC595
+Added Member To Class: ClassName=U1 Member=Component HC2 74HC595
+Added Member To Class: ClassName=U1 Member=Component HC3 74HC595
+Added Member To Class: ClassName=U1 Member=Component HC4 74HC595
+Added Member To Class: ClassName=U1 Member=Component HC5 74HC595
+Added Member To Class: ClassName=U1 Member=Component HC6 74HC595
+Added Member To Class: ClassName=U1 Member=Component K1 KEY_3
+Added Member To Class: ClassName=U1 Member=Component K2 BigButton
+Added Member To Class: ClassName=U1 Member=Component P1 H1X4
+Added Member To Class: ClassName=U1 Member=Component P2 DC接口
+Added Member To Class: ClassName=U1 Member=Component Q1 9012/8550(PNP)
+Added Member To Class: ClassName=U1 Member=Component R1 RES
+Added Member To Class: ClassName=U1 Member=Component R2 RES
+Added Member To Class: ClassName=U1 Member=Component R3 RES
+Added Member To Class: ClassName=U1 Member=Component R4 RES
+Added Member To Class: ClassName=U1 Member=Component R5 RES
+Added Member To Class: ClassName=U1 Member=Component R6 RES
+Added Member To Class: ClassName=U1 Member=Component R7 RES
+Added Member To Class: ClassName=U1 Member=Component R8 RES
+Added Member To Class: ClassName=U1 Member=Component R9 RES
+Added Member To Class: ClassName=U1 Member=Component R10 RES
+Added Member To Class: ClassName=U1 Member=Component R11 RES
+Added Member To Class: ClassName=U1 Member=Component R12 RES
+Added Member To Class: ClassName=U1 Member=Component R13 RES
+Added Member To Class: ClassName=U1 Member=Component R14 RES
+Added Member To Class: ClassName=U1 Member=Component R15 RES
+Added Member To Class: ClassName=U1 Member=Component R16 RES
+Added Member To Class: ClassName=U1 Member=Component R17 RES
+Added Member To Class: ClassName=U1 Member=Component R18 RES
+Added Member To Class: ClassName=U1 Member=Component R19 RES
+Added Member To Class: ClassName=U1 Member=Component R20 RES
+Added Member To Class: ClassName=U1 Member=Component R21 RES
+Added Member To Class: ClassName=U1 Member=Component R22 RES
+Added Member To Class: ClassName=U1 Member=Component R23 RES
+Added Member To Class: ClassName=U1 Member=Component R24 RES
+Added Member To Class: ClassName=U1 Member=Component R25 RES
+Added Member To Class: ClassName=U1 Member=Component R26 RES
+Added Member To Class: ClassName=U1 Member=Component R27 RES
+Added Member To Class: ClassName=U1 Member=Component R28 RES
+Added Member To Class: ClassName=U1 Member=Component R29 RES
+Added Member To Class: ClassName=U1 Member=Component R30 RES
+Added Member To Class: ClassName=U1 Member=Component R31 RES
+Added Member To Class: ClassName=U1 Member=Component R32 RES
+Added Member To Class: ClassName=U1 Member=Component R33 RES
+Added Member To Class: ClassName=U1 Member=Component R34 RES
+Added Member To Class: ClassName=U1 Member=Component R35 RES
+Added Member To Class: ClassName=U1 Member=Component R36 RES
+Added Member To Class: ClassName=U1 Member=Component R37 RES
+Added Member To Class: ClassName=U1 Member=Component R38 RES
+Added Member To Class: ClassName=U1 Member=Component R39 RES
+Added Member To Class: ClassName=U1 Member=Component R40 RES
+Added Member To Class: ClassName=U1 Member=Component R41 RES
+Added Member To Class: ClassName=U1 Member=Component R42 RES
+Added Member To Class: ClassName=U1 Member=Component R43 RES
+Added Member To Class: ClassName=U1 Member=Component R44 RES
+Added Member To Class: ClassName=U1 Member=Component R45 RES
+Added Member To Class: ClassName=U1 Member=Component R46 RES
+Added Member To Class: ClassName=U1 Member=Component R47 RES
+Added Member To Class: ClassName=U1 Member=Component R48 RES
+Added Member To Class: ClassName=U1 Member=Component R49 RES
+Added Member To Class: ClassName=U1 Member=Component R50 RES
+Added Member To Class: ClassName=U1 Member=Component R51 RES
+Added Member To Class: ClassName=U1 Member=Component R52 RES
+Added Member To Class: ClassName=主图 Member=Component U1 STC89C51
+Added Member To Class: ClassName=U1 Member=Component U2 BEEP
+Added Member To Class: ClassName=U1 Member=Component X1 XTAL
+Added Room: Name=U1
+Added Room: Name=主图

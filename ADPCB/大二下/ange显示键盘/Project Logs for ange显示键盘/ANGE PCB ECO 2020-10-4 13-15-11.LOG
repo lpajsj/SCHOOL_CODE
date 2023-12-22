@@ -1,0 +1,21 @@
+Removed Pin From Net: NetName=Q0 Pin=HC7-3
+Removed Pin From Net: NetName=Q1 Pin=HC7-4
+Removed Pin From Net: NetName=Q2 Pin=HC7-5
+Removed Pin From Net: NetName=Q5 Pin=HC7-11
+Removed Pin From Net: NetName=Q6 Pin=HC7-12
+Removed Pin From Net: NetName=Q7 Pin=HC7-13
+Added Pin To Net: NetName=Q6 Pin=HC7-3
+Added Pin To Net: NetName=Q2 Pin=HC7-4
+Added Pin To Net: NetName=Q7 Pin=HC7-5
+Added Pin To Net: NetName=Q0 Pin=HC7-11
+Added Pin To Net: NetName=Q5 Pin=HC7-12
+Added Pin To Net: NetName=Q1 Pin=HC7-13
+Change Net Name : Old Net Name=Q0 New Net Name=Q5
+Change Net Name : Old Net Name=Q1 New Net Name=Q7
+Change Net Name : Old Net Name=Q2 New Net Name=Q1
+Change Net Name : Old Net Name=Q5 New Net Name=Q6
+Change Net Name : Old Net Name=Q6 New Net Name=Q0
+Change Net Name : Old Net Name=Q7 New Net Name=Q2
+Added Room: Name=U1
+Added Room: Name=U2
+Added Room: Name=Ö÷Í¼

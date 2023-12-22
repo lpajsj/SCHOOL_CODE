@@ -1,0 +1,67 @@
+Added Pin To Net: NetName=NetC3_1 Pin=1-1
+Added Pin To Net: NetName=NetC3_1 Pin=2-1
+Added Pin To Net: NetName=NetC3_1 Pin=3-1
+Added Pin To Net: NetName=NetC3_1 Pin=4-1
+Added Pin To Net: NetName=NetC3_1 Pin=5-1
+Added Pin To Net: NetName=NetC3_1 Pin=6-1
+Added Pin To Net: NetName=NetC3_1 Pin=HC1-10
+Added Pin To Net: NetName=NetC3_1 Pin=HC1-11
+Added Pin To Net: NetName=NetC3_1 Pin=HC1-16
+Added Pin To Net: NetName=NetC3_1 Pin=HC2-10
+Added Pin To Net: NetName=NetC3_1 Pin=HC2-16
+Added Pin To Net: NetName=NetC3_1 Pin=HC3-10
+Added Pin To Net: NetName=NetC3_1 Pin=HC3-16
+Added Pin To Net: NetName=NetC3_1 Pin=HC4-10
+Added Pin To Net: NetName=NetC3_1 Pin=HC4-16
+Added Pin To Net: NetName=NetC3_1 Pin=HC5-10
+Added Pin To Net: NetName=NetC3_1 Pin=HC5-16
+Added Pin To Net: NetName=NetC3_1 Pin=HC6-10
+Added Pin To Net: NetName=NetC3_1 Pin=R44-2
+Added Pin To Net: NetName=NetC3_1 Pin=R46-2
+Added Pin To Net: NetName=NetC3_1 Pin=R47-2
+Added Pin To Net: NetName=NetC3_1 Pin=R49-2
+Added Pin To Net: NetName=NetC3_1 Pin=R58-2
+Added Pin To Net: NetName=NetC3_1 Pin=R59-2
+Added Pin To Net: NetName=NetC3_1 Pin=U1-15
+Change Net Name : Old Net Name=NetC3_1 New Net Name=VCC
+Added Pin To Net: NetName=1S0 Pin=HC1-15
+Added Pin To Net: NetName=1S0 Pin=R4-1
+Added Net: Name=1S0
+Added Pin To Net: NetName=1S1 Pin=HC1-1
+Added Pin To Net: NetName=1S1 Pin=R5-1
+Added Net: Name=1S1
+Added Pin To Net: NetName=1S2 Pin=HC1-2
+Added Pin To Net: NetName=1S2 Pin=R6-1
+Added Net: Name=1S2
+Added Pin To Net: NetName=1S3 Pin=HC1-3
+Added Pin To Net: NetName=1S3 Pin=R7-1
+Added Net: Name=1S3
+Added Pin To Net: NetName=1S4 Pin=HC1-4
+Added Pin To Net: NetName=1S4 Pin=R8-1
+Added Net: Name=1S4
+Added Pin To Net: NetName=1S5 Pin=HC1-5
+Added Pin To Net: NetName=1S5 Pin=R9-1
+Added Net: Name=1S5
+Added Pin To Net: NetName=1S6 Pin=HC1-6
+Added Pin To Net: NetName=1S6 Pin=R10-1
+Added Net: Name=1S6
+Added Pin To Net: NetName=1S7 Pin=HC1-7
+Added Pin To Net: NetName=1S7 Pin=R11-1
+Added Net: Name=1S7
+Added Pin To Net: NetName=1S8 Pin=HC1-9
+Added Net: Name=1S8
+Added Pin To Net: NetName=595SHCLK Pin=HC3-11
+Added Net: Name=595SHCLK
+Added Pin To Net: NetName=END Pin=HC1-13
+Added Pin To Net: NetName=END Pin=HC2-13
+Added Pin To Net: NetName=END Pin=HC3-13
+Added Pin To Net: NetName=END Pin=HC4-13
+Added Pin To Net: NetName=END Pin=HC5-13
+Added Pin To Net: NetName=END Pin=HC6-13
+Added Net: Name=END
+Added Pin To Net: NetName=NetHC1_12 Pin=HC1-12
+Added Pin To Net: NetName=NetHC1_12 Pin=U1-16
+Added Net: Name=NetHC1_12
+Added Pin To Net: NetName=NetHC1_14 Pin=HC1-14
+Added Pin To Net: NetName=NetHC1_14 Pin=U1-14
+Added Net: Name=NetHC1_14

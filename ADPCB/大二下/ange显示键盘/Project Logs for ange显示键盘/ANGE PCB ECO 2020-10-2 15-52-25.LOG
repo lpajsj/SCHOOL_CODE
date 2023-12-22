@@ -1,0 +1,2 @@
+Added Pin To Net: NetName=VCC Pin=HC3-11
+Change Net Name : Old Net Name=VCC New Net Name=595SHCLK

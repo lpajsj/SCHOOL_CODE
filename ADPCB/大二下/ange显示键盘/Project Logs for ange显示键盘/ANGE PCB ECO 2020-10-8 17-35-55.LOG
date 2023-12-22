@@ -1,0 +1,20 @@
+Removed Pin From Net: NetName=VCC Pin=HC7-9
+Removed Pin From Net: NetName=VCC Pin=HC7-14
+Removed Pin From Net: NetName=VCC Pin=Q2-1
+Removed Pin From Net: NetName=VCC Pin=R_VR1-1
+Removed Pin From Net: NetName=VCC Pin=RP1-1
+Removed Pin From Net: NetName=VCC Pin=U1-31
+Removed Pin From Net: NetName=VCC Pin=U1-40
+Removed Pin From Net: NetName=VCC Pin=U3-2
+Added Pin To Net: NetName=NetHC7_9 Pin=HC7-9
+Added Pin To Net: NetName=NetHC7_9 Pin=HC7-14
+Added Pin To Net: NetName=NetHC7_9 Pin=Q2-1
+Added Pin To Net: NetName=NetHC7_9 Pin=R_VR1-1
+Added Pin To Net: NetName=NetHC7_9 Pin=RP1-1
+Added Pin To Net: NetName=NetHC7_9 Pin=U1-31
+Added Pin To Net: NetName=NetHC7_9 Pin=U1-40
+Added Pin To Net: NetName=NetHC7_9 Pin=U3-2
+Added Net: Name=NetHC7_9
+Added Room: Name=U1
+Added Room: Name=U2
+Added Room: Name=Ö÷Í¼

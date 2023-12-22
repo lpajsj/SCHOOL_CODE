@@ -1,0 +1,53 @@
+Removed Pin From Net: NetName=A7 Pin=1-1
+Removed Pin From Net: NetName=A6 Pin=1-2
+Removed Pin From Net: NetName=A1 Pin=1-4
+Removed Pin From Net: NetName=A2 Pin=1-5
+Removed Pin From Net: NetName=A5 Pin=1-6
+Removed Pin From Net: NetName=A4 Pin=1-7
+Removed Pin From Net: NetName=A3 Pin=1-9
+Removed Pin From Net: NetName=A8 Pin=1-10
+Added Component: Designator=R11(RES_DIP)
+Added Component: Designator=R12(RES_DIP)
+Added Component: Designator=R13(RES_DIP)
+Added Component: Designator=R14(RES_DIP)
+Added Component: Designator=R15(RES_DIP)
+Added Component: Designator=R16(RES_DIP)
+Added Component: Designator=R17(RES_DIP)
+Added Pin To Net: NetName=A1 Pin=R11-1
+Added Pin To Net: NetName=A2 Pin=R12-1
+Added Pin To Net: NetName=A3 Pin=R13-1
+Added Pin To Net: NetName=A4 Pin=R14-1
+Added Pin To Net: NetName=A5 Pin=R15-1
+Added Pin To Net: NetName=A6 Pin=R16-1
+Added Pin To Net: NetName=A7 Pin=R17-1
+Added Pin To Net: NetName=Net1_1 Pin=1-1
+Added Pin To Net: NetName=Net1_1 Pin=R17-2
+Added Net: Name=Net1_1
+Added Pin To Net: NetName=Net1_2 Pin=1-2
+Added Pin To Net: NetName=Net1_2 Pin=R16-2
+Added Net: Name=Net1_2
+Added Pin To Net: NetName=Net1_4 Pin=1-4
+Added Pin To Net: NetName=Net1_4 Pin=R11-2
+Added Net: Name=Net1_4
+Added Pin To Net: NetName=Net1_5 Pin=1-5
+Added Pin To Net: NetName=Net1_5 Pin=R12-2
+Added Net: Name=Net1_5
+Added Pin To Net: NetName=Net1_6 Pin=1-6
+Added Pin To Net: NetName=Net1_6 Pin=R15-2
+Added Net: Name=Net1_6
+Added Pin To Net: NetName=Net1_7 Pin=1-7
+Added Pin To Net: NetName=Net1_7 Pin=R14-2
+Added Net: Name=Net1_7
+Added Pin To Net: NetName=Net1_9 Pin=1-9
+Added Pin To Net: NetName=Net1_9 Pin=R13-2
+Added Net: Name=Net1_9
+Added Member To Class: ClassName=U2 Member=Component R11 RES
+Added Member To Class: ClassName=U2 Member=Component R12 RES
+Added Member To Class: ClassName=U2 Member=Component R13 RES
+Added Member To Class: ClassName=U2 Member=Component R14 RES
+Added Member To Class: ClassName=U2 Member=Component R15 RES
+Added Member To Class: ClassName=U2 Member=Component R16 RES
+Added Member To Class: ClassName=U2 Member=Component R17 RES
+Added Room: Name=ADDA
+Added Room: Name=U1
+Added Room: Name=U2

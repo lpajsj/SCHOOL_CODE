@@ -1,0 +1,28 @@
+Removed Pin From Net: NetName=NetD1_1 Pin=R_VR1-1
+Removed Pin From Net: NetName=END Pin=R_VR1-3
+Removed Pin From Net: NetName=NetD1_1 Pin=R_VR2-1
+Removed Pin From Net: NetName=END Pin=R_VR2-3
+Added Component: Designator=C6(Cap-Dip)
+Added Component: Designator=C7(CAP[16V])
+Added Component: Designator=D3(LED)
+Added Component: Designator=R43(RES_DIP)
+Added Pin To Net: NetName=NetA1_1 Pin=C6-1
+Added Pin To Net: NetName=NetA1_2 Pin=C6-2
+Added Pin To Net: NetName=NetA1_1 Pin=C7-1
+Added Pin To Net: NetName=NetA1_2 Pin=C7-2
+Added Pin To Net: NetName=NetA1_2 Pin=D3-2
+Added Pin To Net: NetName=NetA1_1 Pin=R43-2
+Added Pin To Net: NetName=NetA1_1 Pin=R_VR1-1
+Added Pin To Net: NetName=NetA1_2 Pin=R_VR1-3
+Added Pin To Net: NetName=NetA1_1 Pin=R_VR2-1
+Added Pin To Net: NetName=NetA1_2 Pin=R_VR2-3
+Added Pin To Net: NetName=NetD3_1 Pin=D3-1
+Added Pin To Net: NetName=NetD3_1 Pin=R43-1
+Added Net: Name=NetD3_1
+Added Member To Class: ClassName=U1 Member=Component C6 CAP
+Added Member To Class: ClassName=U1 Member=Component C7 CAP_ELEC
+Added Member To Class: ClassName=U1 Member=Component D3 LED
+Added Member To Class: ClassName=U1 Member=Component R43 RES
+Added Room: Name=ADDA
+Added Room: Name=U1
+Added Room: Name=U2

@@ -1,0 +1,6 @@
+Change Component DesignItemId : Designator=C3 Old DesignItemId=CAP_ELEC New DesignItemId=CAP
+Change Component Footprint: Designator=C3 Old Footprint=CAP[103] New Footprint=Cap-Dip
+Change Component Comment : Designator=C3 Old Comment=CAP_ELEC New Comment=CAP
+Added Room: Name=U1
+Added Room: Name=U2
+Added Room: Name=Ö÷Í¼

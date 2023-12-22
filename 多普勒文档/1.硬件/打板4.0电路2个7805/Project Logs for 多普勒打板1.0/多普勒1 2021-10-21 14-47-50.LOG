@@ -1,0 +1,36 @@
+Removed Pin From Net: NetName=VCC Pin=L1-2
+Removed Pin From Net: NetName=VCO Pin=L1-5
+Removed Pin From Net: NetName=VCC Pin=L2-2
+Removed Pin From Net: NetName=VCO Pin=L2-6
+Removed Pin From Net: NetName=3.3V Pin=R3-2
+Removed Pin From Net: NetName=PA11 Pin=U1-2
+Removed Member From Class: ClassName=∂‡∆’¿’1.0 Member=R3
+Removed Member From Class: ClassName=∂‡∆’¿’1.0 Member=U1
+Added Component: Designator=P14(H2.54_1X5)
+Added Component: Designator=P15(H2.54_1X3)
+Added Component: Designator=V2(TO220A)
+Added Pin To Net: NetName=VCC Pin=P14-1
+Added Pin To Net: NetName=NetM1_43 Pin=P14-2
+Added Pin To Net: NetName=NetM1_45 Pin=P14-3
+Added Pin To Net: NetName=NetM1_47 Pin=P14-4
+Added Pin To Net: NetName=GND Pin=P14-5
+Added Pin To Net: NetName=VCO Pin=P15-3
+Added Pin To Net: NetName=VCC Pin=V1-3
+Added Pin To Net: NetName=NetC1_2 Pin=V2-1
+Added Pin To Net: NetName=GND Pin=V2-2
+Change Net Name : Old Net Name=VCO New Net Name=NetP15_3
+Added Pin To Net: NetName=VCC2 Pin=L1-2
+Added Pin To Net: NetName=VCC2 Pin=L2-2
+Added Pin To Net: NetName=VCC2 Pin=P15-1
+Added Pin To Net: NetName=VCC2 Pin=V2-3
+Added Net: Name=VCC2
+Added Pin To Net: NetName=VCO Pin=L1-5
+Added Pin To Net: NetName=VCO Pin=L2-6
+Added Pin To Net: NetName=VCO Pin=P15-2
+Added Net: Name=VCO
+Added Member To Class: ClassName=∂‡∆’¿’1.0 Member=Component P14 H1X5
+Added Member To Class: ClassName=∂‡∆’¿’1.0 Member=Component P15 H1X3
+Added Member To Class: ClassName=∂‡∆’¿’1.0 Member=Component R15 1K
+Added Member To Class: ClassName=∂‡∆’¿’1.0 Member=Component R29 1K
+Added Member To Class: ClassName=∂‡∆’¿’1.0 Member=Component V2 78xx
+Added Room: Name=∂‡∆’¿’1.0

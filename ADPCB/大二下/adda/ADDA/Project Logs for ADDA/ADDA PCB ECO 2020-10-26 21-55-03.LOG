@@ -1,0 +1,30 @@
+Removed Pin From Net: NetName=NetA1_1 Pin=Q1-1
+Removed Pin From Net: NetName=NetA1_1 Pin=R_VR3-1
+Removed Pin From Net: NetName=END Pin=R_VR3-3
+Removed Pin From Net: NetName=NetA1_1 Pin=RP1-1
+Removed Pin From Net: NetName=END Pin=U3-1
+Removed Pin From Net: NetName=NetA1_1 Pin=U3-2
+Removed Pin From Net: NetName=END Pin=U3-16
+Removed Member From Class: ClassName=U2 Member=Q1
+Removed Member From Class: ClassName=U2 Member=R_VR3
+Removed Member From Class: ClassName=U2 Member=RP1
+Removed Member From Class: ClassName=U2 Member=U3
+Added Pin To Net: NetName=NetU1_28 Pin=U1-28
+Added Net: Name=NetU1_28
+Added Pin To Net: NetName=NetU1_32 Pin=U1-32
+Added Net: Name=NetU1_32
+Added Pin To Net: NetName=NetU1_33 Pin=U1-33
+Added Net: Name=NetU1_33
+Added Pin To Net: NetName=NetU1_34 Pin=U1-34
+Added Net: Name=NetU1_34
+Added Pin To Net: NetName=NetU1_35 Pin=U1-35
+Added Net: Name=NetU1_35
+Added Pin To Net: NetName=NetU1_36 Pin=U1-36
+Added Net: Name=NetU1_36
+Added Pin To Net: NetName=NetU1_37 Pin=U1-37
+Added Net: Name=NetU1_37
+Added Pin To Net: NetName=NetU1_38 Pin=U1-38
+Added Net: Name=NetU1_38
+Added Pin To Net: NetName=NetU1_39 Pin=U1-39
+Added Net: Name=NetU1_39
+Added Room: Name=U2
