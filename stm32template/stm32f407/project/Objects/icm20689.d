@@ -1,0 +1,43 @@
+.\objects\icm20689.o: ..\myhardware\src\icm20689.c
+.\objects\icm20689.o: ..\myhardware\inc\icm20689.h
+.\objects\icm20689.o: ..\Libraries\CMSIS\stm32f4xx.h
+.\objects\icm20689.o: ..\Libraries\CMSIS\coreinc\core_cm4.h
+.\objects\icm20689.o: D:\My Program File\keil\ARM\ARMCC\Bin\..\include\stdint.h
+.\objects\icm20689.o: ..\Libraries\CMSIS\coreinc\cmsis_version.h
+.\objects\icm20689.o: ..\Libraries\CMSIS\coreinc\cmsis_compiler.h
+.\objects\icm20689.o: ..\Libraries\CMSIS\coreinc\cmsis_armcc.h
+.\objects\icm20689.o: ..\Libraries\CMSIS\coreinc\mpu_armv7.h
+.\objects\icm20689.o: ..\Libraries\CMSIS\system_stm32f4xx.h
+.\objects\icm20689.o: ..\User\stm32f4xx_conf.h
+.\objects\icm20689.o: ..\Libraries\fwlib\inc\stm32f4xx_adc.h
+.\objects\icm20689.o: ..\Libraries\CMSIS\stm32f4xx.h
+.\objects\icm20689.o: ..\Libraries\fwlib\inc\stm32f4xx_crc.h
+.\objects\icm20689.o: ..\Libraries\fwlib\inc\stm32f4xx_dbgmcu.h
+.\objects\icm20689.o: ..\Libraries\fwlib\inc\stm32f4xx_dma.h
+.\objects\icm20689.o: ..\Libraries\fwlib\inc\stm32f4xx_exti.h
+.\objects\icm20689.o: ..\Libraries\fwlib\inc\stm32f4xx_flash.h
+.\objects\icm20689.o: ..\Libraries\fwlib\inc\stm32f4xx_gpio.h
+.\objects\icm20689.o: ..\Libraries\fwlib\inc\stm32f4xx_i2c.h
+.\objects\icm20689.o: ..\Libraries\fwlib\inc\stm32f4xx_iwdg.h
+.\objects\icm20689.o: ..\Libraries\fwlib\inc\stm32f4xx_pwr.h
+.\objects\icm20689.o: ..\Libraries\fwlib\inc\stm32f4xx_rcc.h
+.\objects\icm20689.o: ..\Libraries\fwlib\inc\stm32f4xx_rtc.h
+.\objects\icm20689.o: ..\Libraries\fwlib\inc\stm32f4xx_sdio.h
+.\objects\icm20689.o: ..\Libraries\fwlib\inc\stm32f4xx_spi.h
+.\objects\icm20689.o: ..\Libraries\fwlib\inc\stm32f4xx_syscfg.h
+.\objects\icm20689.o: ..\Libraries\fwlib\inc\stm32f4xx_tim.h
+.\objects\icm20689.o: ..\Libraries\fwlib\inc\stm32f4xx_usart.h
+.\objects\icm20689.o: ..\Libraries\fwlib\inc\stm32f4xx_wwdg.h
+.\objects\icm20689.o: ..\Libraries\fwlib\inc\misc.h
+.\objects\icm20689.o: ..\Libraries\fwlib\inc\stm32f4xx_cryp.h
+.\objects\icm20689.o: ..\Libraries\fwlib\inc\stm32f4xx_hash.h
+.\objects\icm20689.o: ..\Libraries\fwlib\inc\stm32f4xx_rng.h
+.\objects\icm20689.o: ..\Libraries\fwlib\inc\stm32f4xx_can.h
+.\objects\icm20689.o: ..\Libraries\fwlib\inc\stm32f4xx_dac.h
+.\objects\icm20689.o: ..\Libraries\fwlib\inc\stm32f4xx_dcmi.h
+.\objects\icm20689.o: ..\Libraries\fwlib\inc\stm32f4xx_fsmc.h
+.\objects\icm20689.o: ..\mylibraries\inc\ange_usart.h
+.\objects\icm20689.o: D:\My Program File\keil\ARM\ARMCC\Bin\..\include\stdio.h
+.\objects\icm20689.o: ..\mylibraries\inc\ange_systick.h
+.\objects\icm20689.o: ..\mylibraries\inc\ange_spi.h
+.\objects\icm20689.o: D:\My Program File\keil\ARM\ARMCC\Bin\..\include\math.h

@@ -80,9 +80,9 @@
             <nStopB2X>0</nStopB2X>
           </BeforeMake>
           <AfterMake>
-            <RunUserProg1>0</RunUserProg1>
+            <RunUserProg1>1</RunUserProg1>
             <RunUserProg2>0</RunUserProg2>
-            <UserProg1Name></UserProg1Name>
+            <UserProg1Name>fromelf --bin --output  .\Objects\test.bin  .\objects\ange407.axf</UserProg1Name>
             <UserProg2Name></UserProg2Name>
             <UserProg1Dos16Mode>0</UserProg1Dos16Mode>
             <UserProg2Dos16Mode>0</UserProg2Dos16Mode>
@@ -338,7 +338,7 @@
               <MiscControls></MiscControls>
               <Define>USE_STDPERIPH_DRIVER,STM32F40_41xxx</Define>
               <Undefine></Undefine>
-              <IncludePath>..\Libraries\CMSIS;..\Libraries\CMSIS\coreinc;..\Libraries\fwlib\inc;..\User;..\mylibraries\inc;..\myhardware\inc;..\DMP_empl</IncludePath>
+              <IncludePath>..\Libraries\CMSIS;..\Libraries\CMSIS\coreinc;..\Libraries\fwlib\inc;..\User;..\mylibraries\inc;..\myhardware\inc;..\DMP_empl;..\software\inc</IncludePath>
             </VariousControls>
           </Cads>
           <Aads>
@@ -940,6 +940,16 @@
               <FileName>OLED2.c</FileName>
               <FileType>1</FileType>
               <FilePath>..\myhardware\src\OLED2.c</FilePath>
+            </File>
+          </Files>
+        </Group>
+        <Group>
+          <GroupName>software</GroupName>
+          <Files>
+            <File>
+              <FileName>fifo_buffer.c</FileName>
+              <FileType>1</FileType>
+              <FilePath>..\software\src\fifo_buffer.c</FilePath>
             </File>
           </Files>
         </Group>
