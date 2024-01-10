@@ -1,0 +1,4 @@
+Added Component: Designator=JP1(HDR2.54-LI-2P)
+Added Pin To Net: NetName=NetR4_2 Pin=JP1-1
+Added Pin To Net: NetName=GND Pin=JP1-2
+Change Net Name : Old Net Name=NetR4_2 New Net Name=NetJP1_1

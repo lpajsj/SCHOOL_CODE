@@ -1,0 +1,102 @@
+C51 COMPILER V9.59.0.0   MAIN13                                                            01/10/2024 21:42:40 PAGE 1   
+
+
+C51 COMPILER V9.59.0.0, COMPILATION OF MODULE MAIN13
+OBJECT MODULE PLACED IN .\Objects\main13.obj
+COMPILER INVOKED BY: D:\My Program File\keil\C51\BIN\C51.EXE main13.c OPTIMIZE(8,SPEED) BROWSE INCDIR(..\公共文件) DEBUG
+                    - OBJECTEXTEND PRINT(.\Listings\main13.lst) TABS(2) OBJECT(.\Objects\main13.obj)
+
+line level    source
+
+   1          #include <reg51.h>
+   2          #include <intrins.h>
+   3          #include <absacc.h>
+   4          #include "ange.h"
+   5          #include "15a.h"
+   6          #include "ds1302.h"
+   7          bit shuaxinbiao,yeardayb;
+   8          extern uchar dstime[7];
+   9          extern uchar shuma[];
+  10          uint dingshijishu=500,shuaxinjishu=500;
+  11          void main()
+  12          {
+  13   1        TMOD=0x01;
+  14   1        EA=1;
+  15   1        ET0=1;
+  16   1        TH0=0xec;
+  17   1        TL0=0x78;
+  18   1        TR0=1;
+  19   1        initial15();
+  20   1        write_dstime();
+  21   1        while(1)
+  22   1        {
+  23   2          read_dstime();
+  24   2          delay(10);
+  25   2        }
+  26   1      }
+  27          void t0() interrupt 1
+  28          {
+  29   1        TH0=0xfa;
+  30   1        TL0=0x24;
+  31   1        if(dingshijishu!=0)
+  32   1        {
+  33   2          dingshijishu--;
+  34   2        }
+  35   1        else
+  36   1        {
+  37   2          yeardayb=!yeardayb;
+  38   2          dingshijishu=10000;
+  39   2        }
+  40   1        if(shuaxinjishu!=0)
+  41   1        {
+  42   2          shuaxinjishu--;
+  43   2        }
+  44   1        else
+  45   1        {
+  46   2          shuaxinbiao=1;
+  47   2          shuaxinjishu=500;
+  48   2        }
+  49   1        if(shuaxinbiao)
+  50   1        {
+  51   2          if(yeardayb)
+  52   2          {
+  53   3          shuma[0]=dstime[4]/10;
+  54   3          shuma[1]=dstime[4]%10;
+C51 COMPILER V9.59.0.0   MAIN13                                                            01/10/2024 21:42:40 PAGE 2   
+
+  55   3          shuma[2]=11;
+  56   3          shuma[3]=dstime[5]/10;
+  57   3          shuma[4]=dstime[5]%10;
+  58   3          shuma[5]=11;
+  59   3          shuma[6]=dstime[6]/10;
+  60   3          shuma[7]=dstime[6]%10;
+  61   3          }
+  62   2          else
+  63   2          {
+  64   3          shuma[0]=dstime[0]/10;
+  65   3          shuma[1]=dstime[0]%10;
+  66   3          shuma[2]=11;
+  67   3          shuma[3]=dstime[2]/10;
+  68   3          shuma[4]=dstime[2]%10;
+  69   3          shuma[5]=11;
+  70   3          shuma[6]=dstime[3]/10;
+  71   3          shuma[7]=dstime[3]%10;
+  72   3          }
+  73   2          shuaxinbiao=0;
+  74   2        }
+  75   1        shumaxianshi(shuma);
+  76   1      }
+
+
+MODULE INFORMATION:   STATIC OVERLAYABLE
+   CODE SIZE        =    269    ----
+   CONSTANT SIZE    =   ----    ----
+   XDATA SIZE       =   ----    ----
+   PDATA SIZE       =   ----    ----
+   DATA SIZE        =      4    ----
+   IDATA SIZE       =   ----    ----
+   BIT SIZE         =      2    ----
+END OF MODULE INFORMATION.
+
+
+C51 COMPILATION COMPLETE.  0 WARNING(S),  0 ERROR(S)

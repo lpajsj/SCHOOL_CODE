@@ -1,0 +1,14 @@
+Removed Pin From Net: NetName=GND Pin=R5-1
+Removed Pin From Net: NetName=NetR5_2 Pin=R5-2
+Change Component DesignItemId : Designator=R1 Old DesignItemId=R New DesignItemId=0805电阻
+Change Component DesignItemId : Designator=R2 Old DesignItemId=R New DesignItemId=0805电阻
+Change Component DesignItemId : Designator=R3 Old DesignItemId=R New DesignItemId=0805电阻
+Change Component DesignItemId : Designator=R5 Old DesignItemId=R New DesignItemId=0805电阻
+Change Component Footprint: Designator=R1 Old Footprint=R 0805_M New Footprint=0805R
+Change Component Footprint: Designator=R2 Old Footprint=R 0805_M New Footprint=0805R
+Change Component Footprint: Designator=R3 Old Footprint=R 0805_M New Footprint=0805R
+Change Component Footprint: Designator=R5 Old Footprint=R 0805_M New Footprint=0805R
+Added Pin To Net: NetName=NetR5_2 Pin=R5-1
+Added Pin To Net: NetName=GND Pin=R5-2
+Change Net Name : Old Net Name=NetR5_2 New Net Name=NetR5_1
+Added Member To Class: ClassName=电流环原理图 Member=Component JP1 HDR-1X2

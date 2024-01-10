@@ -1,0 +1,114 @@
+Added Component: Designator=C1(220UF polar cap)
+Added Component: Designator=C2(220UF polar cap)
+Added Component: Designator=C3(C 0805_M)
+Added Component: Designator=C4(C 0805_M)
+Added Component: Designator=C5(C 0805_M)
+Added Component: Designator=C6(C 0805_M)
+Added Component: Designator=C7(C 0805_M)
+Added Component: Designator=C8(C 0805_M)
+Added Component: Designator=CE1(C钽电容7mm*4mm)
+Added Component: Designator=CE2(C钽电容7mm*4mm)
+Added Component: Designator=D1(tvs)
+Added Component: Designator=D2(SWB)
+Added Component: Designator=D3(SWB)
+Added Component: Designator=D4(tvs)
+Added Component: Designator=H1(CH2座)
+Added Component: Designator=JP1(XH2.54-WI-2P)
+Added Component: Designator=JP2(XH2.54-WI-4P)
+Added Component: Designator=R1(R 0805_M)
+Added Component: Designator=R2(R 0805_M)
+Added Component: Designator=R3(R 0805_M)
+Added Component: Designator=R4(R 0805_M)
+Added Component: Designator=U1(ISOWATT220AB)
+Added Component: Designator=U?(AD5410)
+Added Pin To Net: NetName=+12V Pin=C1-1
+Added Pin To Net: NetName=GND Pin=C1-2
+Added Pin To Net: NetName=+5V Pin=C2-1
+Added Pin To Net: NetName=GND Pin=C2-2
+Added Pin To Net: NetName=GND Pin=C3-1
+Added Pin To Net: NetName=+12V Pin=C3-2
+Added Pin To Net: NetName=GND Pin=C4-1
+Added Pin To Net: NetName=+5V Pin=C4-2
+Added Pin To Net: NetName=NetC5_1 Pin=C5-1
+Added Pin To Net: NetName=+12V Pin=C5-2
+Added Pin To Net: NetName=GND Pin=C6-1
+Added Pin To Net: NetName=+12V Pin=C6-2
+Added Pin To Net: NetName=GND Pin=C7-1
+Added Pin To Net: NetName=+5V Pin=C7-2
+Added Pin To Net: NetName=GND Pin=C8-1
+Added Pin To Net: NetName=NetC8_2 Pin=C8-2
+Added Pin To Net: NetName=+12V Pin=CE1-1
+Added Pin To Net: NetName=NetCE1_2 Pin=CE1-2
+Added Pin To Net: NetName=+12V Pin=CE2-1
+Added Pin To Net: NetName=GND Pin=CE2-2
+Added Pin To Net: NetName=GND Pin=D1-1
+Added Pin To Net: NetName=+12V Pin=D1-2
+Added Pin To Net: NetName=NetD2_1 Pin=D2-1
+Added Pin To Net: NetName=+12V Pin=D2-2
+Added Pin To Net: NetName=GND Pin=D3-1
+Added Pin To Net: NetName=NetD2_1 Pin=D3-2
+Added Pin To Net: NetName=GND Pin=D4-1
+Added Pin To Net: NetName=NetD4_2 Pin=D4-2
+Added Pin To Net: NetName=+12V Pin=H1-1
+Added Pin To Net: NetName=GND Pin=H1-2
+Added Pin To Net: NetName=NetD4_2 Pin=JP1-1
+Added Pin To Net: NetName=GND Pin=JP1-2
+Added Pin To Net: NetName=NetJP2_1 Pin=JP2-1
+Added Pin To Net: NetName=NetJP2_2 Pin=JP2-2
+Added Pin To Net: NetName=NetJP2_3 Pin=JP2-3
+Added Pin To Net: NetName=NetJP2_4 Pin=JP2-4
+Added Pin To Net: NetName=+5V Pin=R1-1
+Added Pin To Net: NetName=NetR1_2 Pin=R1-2
+Added Pin To Net: NetName=GND Pin=R2-1
+Added Pin To Net: NetName=NetR2_2 Pin=R2-2
+Added Pin To Net: NetName=NetD2_1 Pin=R3-1
+Added Pin To Net: NetName=NetD4_2 Pin=R3-2
+Added Pin To Net: NetName=GND Pin=R4-1
+Added Pin To Net: NetName=NetR4_2 Pin=R4-2
+Added Pin To Net: NetName=+12V Pin=U1-1
+Added Pin To Net: NetName=+5V Pin=U1-2
+Added Pin To Net: NetName=GND Pin=U1-3
+Added Pin To Net: NetName=GND Pin=U?-1
+Added Pin To Net: NetName=+5V Pin=U?-2
+Added Pin To Net: NetName=NetR1_2 Pin=U?-3
+Added Pin To Net: NetName=GND Pin=U?-4
+Added Pin To Net: NetName=GND Pin=U?-5
+Added Pin To Net: NetName=NetR2_2 Pin=U?-6
+Added Pin To Net: NetName=NetJP2_4 Pin=U?-7
+Added Pin To Net: NetName=NetJP2_3 Pin=U?-8
+Added Pin To Net: NetName=NetJP2_2 Pin=U?-9
+Added Pin To Net: NetName=NetJP2_1 Pin=U?-10
+Added Pin To Net: NetName=GND Pin=U?-11
+Added Pin To Net: NetName=GND Pin=U?-12
+Added Pin To Net: NetName=NetR4_2 Pin=U?-13
+Added Pin To Net: NetName=NetC8_2 Pin=U?-14
+Added Pin To Net: NetName=NetC8_2 Pin=U?-15
+Added Pin To Net: NetName=NetD2_1 Pin=U?-19
+Added Pin To Net: NetName=NetC5_1 Pin=U?-21
+Added Pin To Net: NetName=NetCE1_2 Pin=U?-22
+Added Pin To Net: NetName=+12V Pin=U?-24
+Added Pin To Net: NetName=GND Pin=U?-25
+Added Member To Class: ClassName=电流环原理图 Member=Component C1 CAP
+Added Member To Class: ClassName=电流环原理图 Member=Component C2 CAP
+Added Member To Class: ClassName=电流环原理图 Member=Component C3 104
+Added Member To Class: ClassName=电流环原理图 Member=Component C4 104
+Added Member To Class: ClassName=电流环原理图 Member=Component C5 104
+Added Member To Class: ClassName=电流环原理图 Member=Component C6 104
+Added Member To Class: ClassName=电流环原理图 Member=Component C7 104
+Added Member To Class: ClassName=电流环原理图 Member=Component C8 104
+Added Member To Class: ClassName=电流环原理图 Member=Component CE1 10uF
+Added Member To Class: ClassName=电流环原理图 Member=Component CE2 10uF
+Added Member To Class: ClassName=电流环原理图 Member=Component D1 TVS
+Added Member To Class: ClassName=电流环原理图 Member=Component D2 SS38
+Added Member To Class: ClassName=电流环原理图 Member=Component D3 SS38
+Added Member To Class: ClassName=电流环原理图 Member=Component D4 TVS
+Added Member To Class: ClassName=电流环原理图 Member=Component H1 CH2
+Added Member To Class: ClassName=电流环原理图 Member=Component JP1 HDR-1X2
+Added Member To Class: ClassName=电流环原理图 Member=Component JP2 HDR-1X4
+Added Member To Class: ClassName=电流环原理图 Member=Component R1 10K
+Added Member To Class: ClassName=电流环原理图 Member=Component R2 1K
+Added Member To Class: ClassName=电流环原理图 Member=Component R3 20
+Added Member To Class: ClassName=电流环原理图 Member=Component R4 1K
+Added Member To Class: ClassName=电流环原理图 Member=Component U1 L7805CP
+Added Member To Class: ClassName=电流环原理图 Member=Component U? AD5410
+Added Room: Name=电流环原理图

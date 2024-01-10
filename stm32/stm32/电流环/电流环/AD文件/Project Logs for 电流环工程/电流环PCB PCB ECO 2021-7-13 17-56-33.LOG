@@ -1,0 +1,74 @@
+Added Component: Designator=C1(220UF polar cap)
+Added Component: Designator=C2(220UF polar cap)
+Added Component: Designator=C3(C 0805_M)
+Added Component: Designator=C4(C 0805_M)
+Added Component: Designator=C5(C 0805_M)
+Added Component: Designator=C6(C 0805_M)
+Added Component: Designator=C7(C 0805_M)
+Added Component: Designator=C8(C 0805_M)
+Added Component: Designator=CE1(C钽电容7mm*4mm)
+Added Component: Designator=CE2(C钽电容7mm*4mm)
+Added Component: Designator=H1(CH2座)
+Added Component: Designator=JP1(XH2.54-WI-2P)
+Added Component: Designator=JP2(XH2.54-WI-4P)
+Added Component: Designator=R1(R 0805_M)
+Added Component: Designator=R2(R 0805_M)
+Added Component: Designator=R3(R 0805_M)
+Added Component: Designator=R4(R 0805_M)
+Added Component: Designator=U1(ISOWATT220AB)
+Added Pin To Net: NetName=+5V Pin=C2-1
+Added Pin To Net: NetName=+5V Pin=C4-2
+Added Pin To Net: NetName=+5V Pin=C7-2
+Added Pin To Net: NetName=+5V Pin=R1-1
+Added Pin To Net: NetName=+5V Pin=U1-2
+Added Net: Name=+5V
+Added Pin To Net: NetName=+12V Pin=C1-1
+Added Pin To Net: NetName=+12V Pin=C3-2
+Added Pin To Net: NetName=+12V Pin=C5-2
+Added Pin To Net: NetName=+12V Pin=C6-2
+Added Pin To Net: NetName=+12V Pin=CE1-1
+Added Pin To Net: NetName=+12V Pin=CE2-1
+Added Pin To Net: NetName=+12V Pin=H1-1
+Added Pin To Net: NetName=+12V Pin=U1-1
+Added Net: Name=+12V
+Added Pin To Net: NetName=GND Pin=C1-2
+Added Pin To Net: NetName=GND Pin=C2-2
+Added Pin To Net: NetName=GND Pin=C3-1
+Added Pin To Net: NetName=GND Pin=C4-1
+Added Pin To Net: NetName=GND Pin=C6-1
+Added Pin To Net: NetName=GND Pin=C7-1
+Added Pin To Net: NetName=GND Pin=C8-1
+Added Pin To Net: NetName=GND Pin=CE2-2
+Added Pin To Net: NetName=GND Pin=H1-2
+Added Pin To Net: NetName=GND Pin=JP1-2
+Added Pin To Net: NetName=GND Pin=R2-1
+Added Pin To Net: NetName=GND Pin=R4-1
+Added Pin To Net: NetName=GND Pin=U1-3
+Added Net: Name=GND
+Added Pin To Net: NetName=NetC5_1 Pin=C5-1
+Added Net: Name=NetC5_1
+Added Pin To Net: NetName=NetC8_2 Pin=C8-2
+Added Net: Name=NetC8_2
+Added Pin To Net: NetName=NetCE1_2 Pin=CE1-2
+Added Net: Name=NetCE1_2
+Added Pin To Net: NetName=NetD2_1 Pin=R3-1
+Added Net: Name=NetD2_1
+Added Pin To Net: NetName=NetD4_2 Pin=JP1-1
+Added Pin To Net: NetName=NetD4_2 Pin=R3-2
+Added Net: Name=NetD4_2
+Added Pin To Net: NetName=NetJP2_1 Pin=JP2-1
+Added Net: Name=NetJP2_1
+Added Pin To Net: NetName=NetJP2_2 Pin=JP2-2
+Added Net: Name=NetJP2_2
+Added Pin To Net: NetName=NetJP2_3 Pin=JP2-3
+Added Net: Name=NetJP2_3
+Added Pin To Net: NetName=NetJP2_4 Pin=JP2-4
+Added Net: Name=NetJP2_4
+Added Pin To Net: NetName=NetR1_2 Pin=R1-2
+Added Net: Name=NetR1_2
+Added Pin To Net: NetName=NetR2_2 Pin=R2-2
+Added Net: Name=NetR2_2
+Added Pin To Net: NetName=NetR4_2 Pin=R4-2
+Added Net: Name=NetR4_2
+Added Class: Name=电流环原理图
+Added Room: Name=电流环原理图

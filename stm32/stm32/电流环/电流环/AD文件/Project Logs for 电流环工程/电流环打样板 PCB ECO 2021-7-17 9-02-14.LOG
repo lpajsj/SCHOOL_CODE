@@ -1,0 +1,8 @@
+Change Component Designator: OldDesignator=JP1 NewDesignator=JP2
+Change Component Designator: OldDesignator=JP2 NewDesignator=JP3
+Change Net Name : Old Net Name=NetJP1_1 New Net Name=NetJP2_1
+Change Net Name : Old Net Name=NetJP2_2 New Net Name=NetJP3_2
+Change Net Name : Old Net Name=NetJP2_3 New Net Name=NetJP3_3
+Change Net Name : Old Net Name=NetJP2_4 New Net Name=NetJP3_4
+Change Net Name : Old Net Name=NetJP2_5 New Net Name=NetJP3_5
+Added Member To Class: ClassName=电流环原理图 Member=Component JP3 HDR-1X5

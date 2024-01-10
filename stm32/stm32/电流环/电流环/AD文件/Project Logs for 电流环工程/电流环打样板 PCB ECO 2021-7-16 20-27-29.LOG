@@ -1,0 +1,4 @@
+Added Component: Designator=S1(三脚小开关)
+Added Pin To Net: NetName=NetR4_2 Pin=S1-2
+Added Pin To Net: NetName=GND Pin=S1-3
+Added Member To Class: ClassName=电流环原理图 Member=Component S1 switch

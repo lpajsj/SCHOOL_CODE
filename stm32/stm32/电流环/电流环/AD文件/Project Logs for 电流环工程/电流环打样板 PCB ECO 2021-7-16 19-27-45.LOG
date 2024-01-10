@@ -1,0 +1,14 @@
+Added Component: Designator=JP1(HDR2.54-LI-2P)
+Added Component: Designator=JP2(XH2.54-LI-5P)
+Added Pin To Net: NetName=NetD4_2 Pin=JP1-1
+Added Pin To Net: NetName=GND Pin=JP1-2
+Added Pin To Net: NetName=GND Pin=JP2-1
+Added Pin To Net: NetName=NetJP2_2 Pin=JP2-2
+Added Pin To Net: NetName=NetJP2_3 Pin=JP2-3
+Added Pin To Net: NetName=NetJP2_4 Pin=JP2-4
+Added Pin To Net: NetName=NetJP2_5 Pin=JP2-5
+Change Net Name : Old Net Name=+12V New Net Name=+9V
+Change Net Name : Old Net Name=NetJP1_1 New Net Name=NetR4_2
+Added Member To Class: ClassName=电流环原理图 Member=Component JP1 HDR-1X2
+Added Member To Class: ClassName=电流环原理图 Member=Component JP2 HDR-1X5
+Added Member To Class: ClassName=电流环原理图 Member=Component R4 Res2
