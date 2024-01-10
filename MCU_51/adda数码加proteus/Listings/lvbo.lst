@@ -1,0 +1,129 @@
+C51 COMPILER V9.59.0.0   LVBO                                                              01/11/2024 00:31:54 PAGE 1   
+
+
+C51 COMPILER V9.59.0.0, COMPILATION OF MODULE LVBO
+OBJECT MODULE PLACED IN .\Objects\lvbo.obj
+COMPILER INVOKED BY: D:\My Program File\keil\C51\BIN\C51.EXE lvbo.c OPTIMIZE(8,SPEED) BROWSE DEBUG OBJECTEXTEND PRINT(.\
+                    -Listings\lvbo.lst) TABS(2) OBJECT(.\Objects\lvbo.obj)
+
+line level    source
+
+   1          #include "ange.h"
+   2          #include <reg51.h>
+   3          #include "lvbo.h"
+   4          uchar pingjunshuzu[10];
+   5          uchar firshuzu[4];
+   6          uchar iirshu=0;
+   7          uchar firjishu=0;
+   8          bit firkaishi=0;
+   9          bit iirkaishi=0;
+  10          //
+  11          uchar pingjunshuzu1[10];
+  12          uchar firshuzu1[4];
+  13          uchar iirshu1=0;
+  14          uchar firjishu1=0;
+  15          bit firkaishi1=0;
+  16          bit iirkaishi1=0;
+  17          uchar pingjun()
+  18          {
+  19   1        uint a=0,n=10;
+  20   1        while(n--)
+  21   1        {
+  22   2          a+=pingjunshuzu[n];
+  23   2        }
+  24   1        a/=10;
+  25   1        return a;
+  26   1      }
+  27          uchar iir(uchar x)
+  28          {
+  29   1        if(iirkaishi==0)
+  30   1        {
+  31   2          iirkaishi=1;
+  32   2          iirshu=x;
+  33   2        }
+  34   1        iirshu=iirshu/2+x/2;
+  35   1        return iirshu;
+  36   1      }
+  37          uchar fir(uchar x)
+  38          {
+  39   1        if(!firkaishi)
+  40   1        {
+  41   2          firshuzu[firjishu]=x/4;
+  42   2          firjishu++;
+  43   2          if(firjishu==4)
+  44   2          {
+  45   3            firkaishi=1;
+  46   3            firjishu=0;
+  47   3          }
+  48   2            return x;
+  49   2        }
+  50   1        else
+  51   1        {
+  52   2          firshuzu[firjishu]=x/4;
+  53   2          firjishu++;
+  54   2          if(firjishu==4)
+C51 COMPILER V9.59.0.0   LVBO                                                              01/11/2024 00:31:54 PAGE 2   
+
+  55   2            firjishu=0;
+  56   2          x=firshuzu[0]+firshuzu[1]+firshuzu[2]+firshuzu[3];
+  57   2            return x;
+  58   2        }
+  59   1      }
+  60          //
+  61          uchar pingjun1()
+  62          {
+  63   1        uint a=0,n=10;
+  64   1        while(n--)
+  65   1        {
+  66   2          a+=pingjunshuzu1[n];
+  67   2        }
+  68   1        a/=10;
+  69   1        return a;
+  70   1      }
+  71          uchar iir1(uchar x)
+  72          {
+  73   1          if(iirkaishi1==0)
+  74   1          {
+  75   2            iirkaishi1=1;
+  76   2          iirshu1=x;
+  77   2          }
+  78   1        iirshu1=iirshu1/2+x/2;
+  79   1        return iirshu1;
+  80   1      }
+  81          uchar fir1(uchar x)
+  82          {
+  83   1        if(!firkaishi1)
+  84   1        {
+  85   2          firshuzu[firjishu1]=x/4;
+  86   2          firjishu1++;
+  87   2          if(firjishu1==4)
+  88   2          {
+  89   3            firkaishi1=1;
+  90   3            firjishu1=0;
+  91   3          }
+  92   2            return x;
+  93   2        }
+  94   1        else
+  95   1        {
+  96   2          firshuzu1[firjishu1]=x/4;
+  97   2          firjishu1++;
+  98   2          if(firjishu1==4)
+  99   2            firjishu1=0;
+ 100   2          x=firshuzu1[0]+firshuzu1[1]+firshuzu1[2]+firshuzu1[3];
+ 101   2            return x;
+ 102   2        }
+ 103   1      }
+
+
+MODULE INFORMATION:   STATIC OVERLAYABLE
+   CODE SIZE        =    234    ----
+   CONSTANT SIZE    =   ----    ----
+   XDATA SIZE       =   ----    ----
+   PDATA SIZE       =   ----    ----
+   DATA SIZE        =     32    ----
+   IDATA SIZE       =   ----    ----
+   BIT SIZE         =      4    ----
+END OF MODULE INFORMATION.
+
+
+C51 COMPILATION COMPLETE.  0 WARNING(S),  0 ERROR(S)

@@ -24,13 +24,13 @@ uint code sin[]={0x7f,0x82,0x85,0x88,0x8b,0x8f,0x92,0x95,0x98,0x9b,0x9e,0xa1,
 	0x17,0x19,0x1a,0x1c,0x1e,0x21,0x23,0x25,0x27,0x29,0x2c,0x2e,0x31,0x33,0x36,
 	0x38,0x3b,0x3d,0x40,0x43,0x46,0x48,0x4b,0x4e,0x51,0x54,0x57,0x5a,0x5d,0x60,
 0x63,0x66,0x69,0x6c,0x6f,0x72,0x76,0x79,0x7c};
-sbit sdo2543=P1^6;sbit sdi2543=P1^5;sbit cs2543=P1^7;sbit clk2543=P1^4;sbit eoc2543=P1^3;
-sbit clk5615=P2^7;sbit cs5615=P2^6;sbit din5615=P2^5;//板子
-sbit clk522=P2^0;sbit cs522=P2^1;sbit din522=P2^2;
-//
-//sbit cs2543=P3^6;sbit sdo2543=P3^5;sbit sdi2543=P3^4;sbit clk2543=P3^3;sbit eoc2543=P3^2;
-//sbit clk5615=P2^7;sbit cs5615=P2^6;sbit din5615=P2^5;//仿真
+//sbit sdo2543=P1^6;sbit sdi2543=P1^5;sbit cs2543=P1^7;sbit clk2543=P1^4;sbit eoc2543=P1^3;
+//sbit clk5615=P2^7;sbit cs5615=P2^6;sbit din5615=P2^5;//板子
 //sbit clk522=P2^0;sbit cs522=P2^1;sbit din522=P2^2;
+//
+sbit cs2543=P3^6;sbit sdo2543=P3^5;sbit sdi2543=P3^4;sbit clk2543=P3^3;sbit eoc2543=P3^2;
+sbit clk5615=P2^7;sbit cs5615=P2^6;sbit din5615=P2^5;//仿真
+sbit clk522=P2^0;sbit cs522=P2^1;sbit din522=P2^2;
 uint getdata(uchar tong);
 void outdata();
 void out522();
@@ -194,8 +194,8 @@ if(bohao==1)
 			 {
 				ado10=(sin[jishu]-0x80)*fuzhi/256;
 				ado10+=0x80;
-//				outdata();
-				 out522();
+				outdata();
+//				 out522();
 				jishu=(jishu+quzhijian)%256;
 				}
 			else if(bohao==2)
@@ -206,8 +206,8 @@ if(bohao==1)
 				ado10=(384-jishu*2)*fuzhi/256;
 				jishu=(jishu+quzhijian)%256;
 				ado10+=0x80;
-//				outdata();
-				 out522();
+				outdata();
+//				 out522();
 			}
 			else if(bohao==3)
 			{
@@ -222,8 +222,8 @@ if(bohao==1)
 					ado10=(0-0x80)*fuzhi/256;
 				}
 				ado10+=0x80;
-//				outdata();
-				 out522();
+				outdata();
+//				 out522();
 					 jishu=(jishu+quzhijian)%256;
 			}
 		}
@@ -264,61 +264,61 @@ uint getdata(uchar tong)
 	sj>>=1;
 	return sj;
 }
-//void outdata()
+void outdata()
+{
+	uchar i;
+	clk5615=0;
+	cs5615=0;
+	 adodata=ado10%256;
+	for(i=0;i<8;i++)
+	{
+		if (adodata_7)
+			din5615=1;
+		else
+			din5615=0;
+		clk5615=1;
+		_nop_();
+		clk5615=0;
+		adodata<<=1;
+	}
+	for(i=0;i<4;i++)
+	{
+		din5615=0;
+		clk5615=1;
+		_nop_();
+		clk5615=0;
+	}
+	cs5615=1;
+	cs5615=0;
+}
+//void out522()
 //{
-//	uchar i;
-//	clk5615=0;
-//	cs5615=0;
-//	 adodata=ado10%256;
+//	uchar i=0;
+//	cs522=0;
+//	adodata=0x23;
 //	for(i=0;i<8;i++)
 //	{
-//		if (adodata_7)
-//			din5615=1;
+//		clk522=0;
+//		if(adodata_7)
+//			din522=1;
 //		else
-//			din5615=0;
-//		clk5615=1;
-//		_nop_();
-//		clk5615=0;
+//			din522=0;
+//		clk522=1;
 //		adodata<<=1;
 //	}
-//	for(i=0;i<4;i++)
+//	adodata=ado10%256;
+//	for(i=0;i<8;i++)
 //	{
-//		din5615=0;
-//		clk5615=1;
-//		_nop_();
-//		clk5615=0;
+//		clk522=0;
+//		if(adodata_7)
+//			din522=1;
+//		else
+//			din522=0;
+//		clk522=1;
+//		adodata<<=1;
 //	}
-//	cs5615=1;
-//	cs5615=0;
+//	cs522=1;
 //}
-void out522()
-{
-	uchar i=0;
-	cs522=0;
-	adodata=0x23;
-	for(i=0;i<8;i++)
-	{
-		clk522=0;
-		if(adodata_7)
-			din522=1;
-		else
-			din522=0;
-		clk522=1;
-		adodata<<=1;
-	}
-	adodata=ado10%256;
-	for(i=0;i<8;i++)
-	{
-		clk522=0;
-		if(adodata_7)
-			din522=1;
-		else
-			din522=0;
-		clk522=1;
-		adodata<<=1;
-	}
-	cs522=1;
-}
 //滤布测试
 //			pinlvy=getdata(4);
 //			ajpd();

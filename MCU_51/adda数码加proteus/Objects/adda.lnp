@@ -1,0 +1,7 @@
+".\Objects\adda.obj",
+".\Objects\ange.obj",
+".\Objects\anjian.obj",
+".\Objects\595shuma.obj",
+".\Objects\lvbo.obj" 
+TO ".\Objects\adda" 
+PRINT(".\Listings\adda.m51")

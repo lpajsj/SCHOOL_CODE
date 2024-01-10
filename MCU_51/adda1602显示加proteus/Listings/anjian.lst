@@ -1,0 +1,364 @@
+C51 COMPILER V9.59.0.0   ANJIAN                                                            01/11/2024 00:04:40 PAGE 1   
+
+
+C51 COMPILER V9.59.0.0, COMPILATION OF MODULE ANJIAN
+OBJECT MODULE PLACED IN .\Objects\anjian.obj
+COMPILER INVOKED BY: D:\My Program File\keil\C51\BIN\C51.EXE anjian.c OPTIMIZE(8,SPEED) BROWSE DEBUG OBJECTEXTEND PRINT(
+                    -.\Listings\anjian.lst) TABS(2) OBJECT(.\Objects\anjian.obj)
+
+line level    source
+
+   1          #include <reg51.h>
+   2          #include "ange.h"
+   3          #include "anjian.h"
+   4          #include "lcd1602.h"
+   5          extern void zhengxian();
+   6          extern void sanjiao();
+   7          extern void fangbo();
+   8          uchar ye=0,hao=0;
+   9          uchar code ye1[4][17] = {"Sine Wave       ",//显示当前波形类型
+  10                                      "Triangle Wave   ",
+  11                                      "Square Wave     ",
+  12                                      "Sine Wave       "};
+  13          ucode ye5_13[2][17]={"    running     ","     ->exit      "};
+  14          ucode ye234[4][17]={"    average     ","      fir       ","      iir       ","    average     "};
+  15          extern uchar bohao,lvhao;
+  16          void ajpd()
+  17          {
+  18   1        if(up==0)
+  19   1        {
+  20   2          delay(10);
+  21   2          if(up==0)
+  22   2          {
+  23   3            while(up==0);
+  24   3            anjianup();
+  25   3          }
+  26   2        }
+  27   1      else  if(down==0)
+  28   1        {
+  29   2          delay(10);
+  30   2          if(down==0)
+  31   2          {
+  32   3            while(down==0);
+  33   3            anjiandown();
+  34   3          }
+  35   2        }
+  36   1      else  if(exit==0)
+  37   1        {
+  38   2          delay(10);
+  39   2          if(exit==0)
+  40   2          {
+  41   3            while(exit==0);
+  42   3            anjianexit();
+  43   3          }
+  44   2        }
+  45   1      else if(ok==0)
+  46   1        {
+  47   2          delay(10);
+  48   2          if(ok==0)
+  49   2          {
+  50   3            while(ok==0);
+  51   3            anjianok();
+  52   3          }
+  53   2        }
+  54   1        return;
+C51 COMPILER V9.59.0.0   ANJIAN                                                            01/11/2024 00:04:40 PAGE 2   
+
+  55   1      }
+  56          void anjianok()
+  57          {
+  58   1        if (ye==0)
+  59   1        {
+  60   2          ye=1;
+  61   2          hao=1;
+  62   2          diyihang(ye1[0],0);
+  63   2          dierhang(ye1[1],0);
+  64   2          return;
+  65   2        }
+  66   1      else if (ye==1)
+  67   1      {
+  68   2        if(hao==1)
+  69   2        {
+  70   3          ye=2;
+  71   3          hao=1;
+  72   3          diyihang(ye234[0],0);
+  73   3          dierhang(ye234[1],0);
+  74   3          bohao=1;
+  75   3          return;
+  76   3        }
+  77   2      else if(hao==2)
+  78   2        {
+  79   3          ye=3;
+  80   3          hao=1;
+  81   3          diyihang(ye234[0],0);
+  82   3          dierhang(ye234[1],0);
+  83   3          bohao=2;
+  84   3          return;
+  85   3        }
+  86   2      else if(hao==3)
+  87   2        {
+  88   3          ye=4;
+  89   3          hao=1;
+  90   3          diyihang(ye234[0],0);
+  91   3          dierhang(ye234[1],0);
+  92   3          bohao=3;
+  93   3          return;
+  94   3        }
+  95   2      }
+  96   1      else if(ye==2)
+  97   1      {
+  98   2      if(hao==1)
+  99   2        {
+ 100   3          ye=5;
+ 101   3          hao=1;
+ 102   3          lvhao=1;
+ 103   3          diyihang(ye5_13[0],0);
+ 104   3          dierhang(ye5_13[1],0);
+ 105   3        }
+ 106   2        else if(hao==2)
+ 107   2        {
+ 108   3          ye=6;
+ 109   3          hao=1;
+ 110   3          lvhao=2;
+ 111   3          diyihang(ye5_13[0],0);
+ 112   3          dierhang(ye5_13[1],0);
+ 113   3        }
+ 114   2        else if(hao==3)
+ 115   2        {
+ 116   3          ye=7;
+C51 COMPILER V9.59.0.0   ANJIAN                                                            01/11/2024 00:04:40 PAGE 3   
+
+ 117   3          hao=1;
+ 118   3          lvhao=3;
+ 119   3          diyihang(ye5_13[0],0);
+ 120   3          dierhang(ye5_13[1],0);
+ 121   3        }
+ 122   2        zhengxian();
+ 123   2        return;
+ 124   2      }
+ 125   1      else if(ye==3)
+ 126   1      {
+ 127   2      if(hao==1)
+ 128   2        {
+ 129   3          ye=8;
+ 130   3          lvhao=hao;
+ 131   3          hao=1;
+ 132   3          diyihang(ye5_13[0],0);
+ 133   3          dierhang(ye5_13[1],0);
+ 134   3        }
+ 135   2        else if(hao==2)
+ 136   2        {
+ 137   3          ye=9;
+ 138   3          lvhao=hao;
+ 139   3          hao=1;
+ 140   3          diyihang(ye5_13[0],0);
+ 141   3          dierhang(ye5_13[1],0);
+ 142   3        }
+ 143   2        else if(hao==3)
+ 144   2        {
+ 145   3          ye=10;
+ 146   3          lvhao=hao;
+ 147   3          hao=1;
+ 148   3          diyihang(ye5_13[0],0);
+ 149   3          dierhang(ye5_13[1],0);
+ 150   3        }
+ 151   2        sanjiao();
+ 152   2        return;
+ 153   2      }
+ 154   1      else if(ye==4)
+ 155   1      {
+ 156   2      if(hao==1)
+ 157   2        {
+ 158   3          ye=11;
+ 159   3          lvhao=hao;
+ 160   3          hao=1;
+ 161   3          diyihang(ye5_13[0],0);
+ 162   3          dierhang(ye5_13[1],0);
+ 163   3          
+ 164   3        }
+ 165   2        else if(hao==2)
+ 166   2        {
+ 167   3          ye=12;
+ 168   3          lvhao=hao;
+ 169   3          hao=1;
+ 170   3          diyihang(ye5_13[0],0);
+ 171   3          dierhang(ye5_13[1],0);
+ 172   3        }
+ 173   2        else if(hao==3)
+ 174   2        {
+ 175   3          ye=13;
+ 176   3          lvhao=hao;
+ 177   3          hao=1;
+ 178   3          diyihang(ye5_13[0],0);
+C51 COMPILER V9.59.0.0   ANJIAN                                                            01/11/2024 00:04:40 PAGE 4   
+
+ 179   3          dierhang(ye5_13[1],0);
+ 180   3        } 
+ 181   2        fangbo();
+ 182   2        return;
+ 183   2      }
+ 184   1      }
+ 185          void anjianexit()
+ 186          {
+ 187   1        if (ye==0)
+ 188   1        {
+ 189   2          ye=1;
+ 190   2          hao=1;
+ 191   2          diyihang(ye1[0],0);
+ 192   2          dierhang(ye1[1],0);
+ 193   2          return;
+ 194   2        }
+ 195   1        else if(ye==2)
+ 196   1        {
+ 197   2          ye=1;
+ 198   2          hao=1;
+ 199   2          diyihang(ye1[0],0);
+ 200   2          dierhang(ye1[1],0);
+ 201   2          return;
+ 202   2        }
+ 203   1        else if(ye==3)
+ 204   1        {
+ 205   2          ye=1;
+ 206   2          hao=2;
+ 207   2          diyihang(ye1[1],0);
+ 208   2          dierhang(ye1[2],0);
+ 209   2          return;
+ 210   2        }
+ 211   1        else if(ye==4)
+ 212   1        {
+ 213   2          ye=1;
+ 214   2          hao=3;
+ 215   2          diyihang(ye1[2],0);
+ 216   2          dierhang(ye1[3],0);
+ 217   2          return;
+ 218   2        }
+ 219   1        else if(ye==5||ye==6||ye==7)
+ 220   1        {
+ 221   2          ye=2;
+ 222   2          if (ye==5)
+ 223   2           hao=1;
+ 224   2          else if(ye==6)
+ 225   2            hao=2;
+ 226   2          else if(ye==7)
+ 227   2            hao=3;
+ 228   2          diyihang(ye234[hao-1],0);
+ 229   2          dierhang(ye234[hao],0);
+ 230   2          return;
+ 231   2        }
+ 232   1        else if(ye==8||ye==9||ye==10)
+ 233   1        {
+ 234   2          ye=3;
+ 235   2          if (ye==8)
+ 236   2           hao=1;
+ 237   2          else if(ye==9)
+ 238   2            hao=2;
+ 239   2          else if(ye==10)
+ 240   2            hao=3;
+C51 COMPILER V9.59.0.0   ANJIAN                                                            01/11/2024 00:04:40 PAGE 5   
+
+ 241   2          diyihang(ye234[hao-1],0);
+ 242   2          dierhang(ye234[hao],0);
+ 243   2          return;
+ 244   2        }
+ 245   1        else if(ye==11||ye==12||ye==13)
+ 246   1        {
+ 247   2          ye=4;
+ 248   2          if (ye==11)
+ 249   2           hao=1;
+ 250   2          else if(ye==12)
+ 251   2            hao=2;
+ 252   2          else if(ye==13)
+ 253   2            hao=3;
+ 254   2          diyihang(ye234[hao-1],0);
+ 255   2          dierhang(ye234[hao],0);
+ 256   2          return;
+ 257   2        }
+ 258   1      }
+ 259          void anjiandown()
+ 260          {
+ 261   1        if (ye==0)
+ 262   1        {
+ 263   2          ye=1;
+ 264   2          hao=1;
+ 265   2          diyihang(ye1[0],0);
+ 266   2          dierhang(ye1[1],0);
+ 267   2          return;
+ 268   2        }
+ 269   1      else
+ 270   1      {
+ 271   2        hao+=2;
+ 272   2        anjianup();
+ 273   2      }
+ 274   1      }
+ 275          void anjianup()
+ 276          {
+ 277   1        if (ye==0)
+ 278   1        {
+ 279   2          ye=1;
+ 280   2          hao=1;
+ 281   2          diyihang(ye1[0],0);
+ 282   2          dierhang(ye1[1],0);
+ 283   2          return;
+ 284   2        }
+ 285   1      else
+ 286   1      {
+ 287   2        hao--;
+ 288   2        if(ye==1)
+ 289   2        {
+ 290   3        if(hao==1||hao==4)
+ 291   3        {
+ 292   4          hao=1;
+ 293   4          diyihang(ye1[0],0);
+ 294   4          dierhang(ye1[1],0);
+ 295   4        }
+ 296   3        else if(hao==2)
+ 297   3        {
+ 298   4          diyihang(ye1[1],0);
+ 299   4          dierhang(ye1[2],0);
+ 300   4        }
+ 301   3        else if(hao==0||hao==3)
+ 302   3        {
+C51 COMPILER V9.59.0.0   ANJIAN                                                            01/11/2024 00:04:40 PAGE 6   
+
+ 303   4          hao=3;
+ 304   4          diyihang(ye1[2],0);
+ 305   4          dierhang(ye1[3],0);
+ 306   4        } 
+ 307   3        }
+ 308   2      else if(ye==2||ye==3||4==ye)
+ 309   2      {
+ 310   3        if(hao==1||hao==4)
+ 311   3        {
+ 312   4          hao=1;
+ 313   4          diyihang(ye234[hao-1],0);
+ 314   4          dierhang(ye234[hao],0);
+ 315   4        }
+ 316   3        else if(hao==2)
+ 317   3        {
+ 318   4          diyihang(ye234[hao-1],0);
+ 319   4          dierhang(ye234[hao],0);
+ 320   4        }
+ 321   3        else if(hao==0||hao==3)
+ 322   3        {
+ 323   4          hao=3;
+ 324   4          diyihang(ye234[hao-1],0);
+ 325   4          dierhang(ye234[hao],0);
+ 326   4        }
+ 327   3      }
+ 328   2      }
+ 329   1      return;
+ 330   1      }
+
+
+MODULE INFORMATION:   STATIC OVERLAYABLE
+   CODE SIZE        =   1159    ----
+   CONSTANT SIZE    =    170    ----
+   XDATA SIZE       =   ----    ----
+   PDATA SIZE       =   ----    ----
+   DATA SIZE        =      2    ----
+   IDATA SIZE       =   ----    ----
+   BIT SIZE         =   ----    ----
+END OF MODULE INFORMATION.
+
+
+C51 COMPILATION COMPLETE.  0 WARNING(S),  0 ERROR(S)

@@ -1,0 +1,127 @@
+C51 COMPILER V9.59.0.0   LCD1602                                                           01/11/2024 00:04:40 PAGE 1   
+
+
+C51 COMPILER V9.59.0.0, COMPILATION OF MODULE LCD1602
+OBJECT MODULE PLACED IN .\Objects\lcd1602.obj
+COMPILER INVOKED BY: D:\My Program File\keil\C51\BIN\C51.EXE lcd1602.c OPTIMIZE(8,SPEED) BROWSE DEBUG OBJECTEXTEND PRINT
+                    -(.\Listings\lcd1602.lst) TABS(2) OBJECT(.\Objects\lcd1602.obj)
+
+line level    source
+
+   1          #include "lcd1602.h"
+   2          #include <reg51.h>
+   3          #include <intrins.h>
+   4          void delay10us(void)  //误差 0us
+   5          {
+   6   1          unsigned char a,b;
+   7   1          for(b=1;b>0;b--)
+   8   1              for(a=2;a>0;a--);
+   9   1      }
+  10          void xiemingling(uchar a)    //写入命令
+  11          {
+  12   1        //chamang();
+  13   1        RS=0;
+  14   1        RW=0;
+  15   1        E=0;
+  16   1        shuju=a;
+  17   1        E=1;
+  18   1        _nop_();
+  19   1        delay10us();
+  20   1        E=0;
+  21   1      }
+  22          void xieshuju(uchar a)   //写入数据
+  23          {
+  24   1      //  chamang();
+  25   1        RS=1;
+  26   1        RW=0;
+  27   1        E=0;
+  28   1        shuju=a;
+  29   1        E=1;
+  30   1        _nop_();
+  31   1        delay10us();
+  32   1        E=0;
+  33   1      }
+  34          /*
+  35          void chamang()   //查忙
+  36          {
+  37            uchar b;
+  38            do
+  39              {
+  40            b=0xff;
+  41            E=0;
+  42            RS=0;
+  43            RW=1;
+  44            E=1;
+  45            _nop_();
+  46            b=shuju;
+  47             }while(b&0x80);
+  48            E=0;
+  49          }
+  50          */
+  51          void chushihua()   //初始化函数
+  52          {
+  53   1        xiemingling(0x38);  //1602功能设置，16x2显示，5x7点阵，8位数据接口
+  54   1        delay(1);     //延时
+C51 COMPILER V9.59.0.0   LCD1602                                                           01/11/2024 00:04:40 PAGE 2   
+
+  55   1        xiemingling(0x0c);  //开显示，不显示光标
+  56   1        delay(1);
+  57   1        xiemingling(0x06);  //写入后光标指针加一
+  58   1        delay(1);
+  59   1        xiemingling(0x01);  //清屏
+  60   1        delay(1);
+  61   1        return;
+  62   1      }
+  63          void diyihang(uchar *a,uchar x)  //
+  64          {
+  65   1        x=x+0x80;
+  66   1        xiemingling(x);  //光标定位到1602第二行第一个位置
+  67   1        while(*a&&x!=16) //
+  68   1        {
+  69   2          xieshuju(*a);  //
+  70   2          a++;
+  71   2          x++;//最多写到第十六个
+  72   2        }
+  73   1        return;
+  74   1      }
+  75          void diyihangb(uchar *a,uchar x)  //
+  76          {
+  77   1        x=x+0x80;
+  78   1        xiemingling(x);  //光标定位到1602第二行第一个位置
+  79   1        while(*a&&x!=16) //
+  80   1        {
+  81   2          xieshuju(*a);  //
+  82   2          a++;
+  83   2          x++;//最多写到第十六个
+  84   2        }
+  85   1        xiemingling(0x80);
+  86   1        xieshuju(0x20);
+  87   1        xieshuju(0x7e);
+  88   1        return;
+  89   1      }
+  90          void dierhang(uchar *a,uchar x)  //
+  91          {
+  92   1        x=x+0xc0;
+  93   1        xiemingling(x);  //光标定位到1602第二行第一个位置
+  94   1        while(*a&&x!=16) //
+  95   1        {
+  96   2          xieshuju(*a);  //
+  97   2          a++;
+  98   2          x++;//最多写到第十六个
+  99   2        }
+ 100   1        return;
+ 101   1      }
+
+
+MODULE INFORMATION:   STATIC OVERLAYABLE
+   CODE SIZE        =    221    ----
+   CONSTANT SIZE    =   ----    ----
+   XDATA SIZE       =   ----    ----
+   PDATA SIZE       =   ----    ----
+   DATA SIZE        =   ----    ----
+   IDATA SIZE       =   ----    ----
+   BIT SIZE         =   ----    ----
+END OF MODULE INFORMATION.
+
+
+C51 COMPILATION COMPLETE.  0 WARNING(S),  0 ERROR(S)
